@@ -1,0 +1,574 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+
+    span {
+        color: #645CFF;
+    }
+
+    .headerlinks {
+        display: none;
+    }
+
+    i {
+        color: #645CFF;
+        font-size: 30px;
+
+
+    }
+
+    .headerIcons {
+        width: 150px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+#pirma {
+    background-color: #645CFF;
+    height: 500px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 300px;
+
+    .heroText {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    button {
+        background-color: #645CFF;
+        color: white;
+        border: none;
+        box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+        margin: 10px;
+        padding: 10px;
+        width: 150px;
+    }
+}
+
+#antra {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+
+        span {
+            color: #645CFF;
+        }
+    }
+
+    img {
+        width: 100%;
+
+    }
+
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .antraText :last-child {
+        color: #645CFF;
+    }
+}
+
+
+
+
+
+#trecia {
+    background-color: #f6f5fc;
+
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+
+        span {
+            color: #645CFF;
+        }
+    }
+
+    .grid1 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .cardSaving {
+            width: 200px;
+            text-align: center;
+
+
+            div {
+                background-color: #645CFF;
+                width: 70px;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+
+                i {
+                    font-size: 50px;
+
+                }
+            }
+        }
+
+        .cardEndless {
+            width: 200px;
+            text-align: center;
+
+            div {
+                background-color: #645CFF;
+                width: 70px;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+
+                i {
+                    font-size: 50px;
+
+                }
+            }
+        }
+
+        .cardAmazing {
+            width: 200px;
+            text-align: center;
+
+            div {
+                background-color: #645CFF;
+                width: 70px;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+
+                i {
+                    font-size: 50px;
+
+                }
+            }
+        }
+    }
+}
+
+#ketvirta {
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    p {
+        text-align: center;
+        color: #645CFF;
+    }
+
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+
+        span {
+            color: #645CFF;
+        }
+    }
+
+    .antVirsaus1 {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        width: 160px;
+        height: 30px;
+        background-color: #645CFF;
+        position: absolute;
+
+        p {
+            color: white;
+        }
+    }
+
+    .cardTibet {
+
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 5fr 1fr 1fr;
+        border: 1px solid rgb(238, 238, 238);
+
+
+
+        h3 {
+            grid-column: 1;
+            grid-row: 2;
+            padding-left: 10px;
+        }
+
+        .textPurple {
+            display: flex;
+            flex-direction: row;
+            padding-left: 10px;
+            color: #645CFF;
+            grid-column: 1;
+            grid-row: 3;
+            font-size: 15px;
+            align-items: first baseline;
+            justify-content: space-between;
+            width: 80px;
+
+            i {
+                font-size: 20px;
+            }
+        }
+
+        img {
+            width: 100%;
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+
+        p {
+            text-align: right;
+            grid-column: 2;
+            grid-row: 3;
+            padding-right: 10px;
+        }
+    }
+
+    .antVirsaus2 {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        width: 160px;
+        height: 30px;
+        background-color: #645CFF;
+        position: absolute;
+
+        p {
+            color: white;
+        }
+    }
+
+    .cardNewZeland {
+
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 5fr 1fr 1fr;
+        border: 1px solid rgb(238, 238, 238);
+
+        h3 {
+            grid-column: 1;
+            grid-row: 2;
+            padding-left: 10px;
+        }
+
+        .violetinis {
+            display: flex;
+            flex-direction: row;
+            padding-left: 10px;
+            color: #645CFF;
+            grid-column: 1;
+            grid-row: 3;
+            font-size: 15px;
+            align-items: first baseline;
+            justify-content: space-between;
+            width: 130px;
+
+            i {
+                font-size: 20px;
+            }
+        }
+
+        img {
+            width: 100%;
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+
+        p {
+            text-align: right;
+            grid-column: 2;
+            grid-row: 3;
+            padding-right: 10px;
+        }
+    }
+
+    .antVirsaus3 {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        width: 160px;
+        height: 35px;
+        background-color: #645CFF;
+        position: absolute;
+
+        p {
+            color: white;
+        }
+    }
+
+    .cardHongKong {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 5fr 1fr 1fr;
+        border: 1px solid rgb(238, 238, 238);
+
+        h3 {
+            grid-column: 1;
+            grid-row: 2;
+            padding-left: 10px;
+        }
+
+        .textPurple {
+            display: flex;
+            flex-direction: row;
+            padding-left: 10px;
+            color: #645CFF;
+            grid-column: 1;
+            grid-row: 3;
+            font-size: 15px;
+            align-items: first baseline;
+            justify-content: space-between;
+            width: 90px;
+
+            i {
+                font-size: 20px;
+            }
+        }
+
+        img {
+            width: 100%;
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+
+        p {
+            text-align: right;
+            grid-column: 2;
+            grid-row: 3;
+            padding-right: 10px;
+        }
+    }
+
+    .antVirsaus4 {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        width: 180px;
+        height: 30px;
+        background-color: #645CFF;
+        position: absolute;
+
+        p {
+            color: white;
+        }
+    }
+
+    .cardKenya {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 5fr 1fr 1fr;
+        border: 1px solid rgb(238, 238, 238);
+
+        h3 {
+            grid-column: 1;
+            grid-row: 2;
+            padding-left: 10px;
+        }
+
+        .textPurple {
+            display: flex;
+            flex-direction: row;
+            padding-left: 10px;
+            color: #645CFF;
+            grid-column: 1;
+            grid-row: 3;
+            font-size: 15px;
+            align-items: first baseline;
+            justify-content: space-between;
+            width: 90px;
+
+            i {
+                font-size: 20px;
+            }
+        }
+
+        img {
+            width: 100%;
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+
+        p {
+            text-align: right;
+            grid-column: 2;
+            grid-row: 3;
+            padding-right: 10px;
+        }
+
+
+    }
+
+}
+
+
+#penkta {
+
+
+    p {
+        text-align: center;
+        color: #645CFF;
+    }
+
+    .uzrasas {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        background-color: #f6f5fc;
+        height: 90px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            color: #645CFF;
+        }
+    }
+
+    .pav1,
+    .pav2,
+    .pav3,
+    .pav4 {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .gallery {
+        background-color: #645CFF;
+    }
+}
+
+#sesta {
+    padding-top: 40px;
+    background-color: #645CFF;
+    text-align: center;
+    color: white;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        margin: 0;
+    }
+
+    input {
+        height: 35px;
+        color: grey
+    }
+
+    button {
+        height: 39px;
+        border: none;
+    }
+}
+
+footer {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    height: 200px;
+    padding-top: 50px;
+
+    .bottomnav {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .footerIcons {
+        text-align: center;
+        color: #645CFF;
+
+        i {
+            padding-right: 10px;
+        }
+
+    }
+
+
+    p {
+        margin-top: 0;
+        text-align: center;
+    }
+
+}
+
+@media (min-width:1200px) {
+    header {
+        .headerlinks {
+
+            display: flex;
+
+            p {
+                padding-left: 20px;
+            }
+
+        }
+    }
+
+    #pirma {
+        // Cia yra idealus budas kaip padaryti permatoma fona
+
+        background: linear-gradient(rgba(82, 44, 197, 0.712), rgba(82, 44, 197, 0.712)), url(https://assets3.thrillist.com/v1/image/2418477/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70);
+
+        background-size: cover;
+
+
+
+    }
+
+    #antra {
+        width: 100%;
+        padding-top: 40px;
+
+        .gr1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+
+            .kaire {
+                width: 85%;
+                grid-row: 1;
+                grid-column: 1;
+                box-shadow: 10px 10px 5px #645CFF
+            }
+        }
+    }
+}

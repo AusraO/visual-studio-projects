@@ -1,0 +1,41 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+
+.pirmad, .antrad, .treciad, .ketvirtad, .penktad{
+border: 1px black solid;
+border-radius: 15px;
+}
+
+.pirmad{
+    background-color: lightcoral;
+}
+.antrad{
+    background-color:burlywood ;
+}
+.treciad{
+    background-color: cornflowerblue;
+}
+.ketvirtad{
+    background-color: teal;
+}
+.penktad{
+    background-color: darkgoldenrod;
+   
+}
+
+.tekstai{
+    display: grid;
+    gap:1.5rem;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+margin: 60px;
+}
+
+.gridColumnSpan2{
+    grid-column: span 2;
+}
+
+.tekstai :last-child{
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

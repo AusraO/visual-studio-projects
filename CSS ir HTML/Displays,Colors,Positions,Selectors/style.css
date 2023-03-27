@@ -1,0 +1,144 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+html {
+    scroll-behavior: smooth;
+  }
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.pageLinks{
+    background-color: rgb(207, 146, 33);
+    height: 50px;
+    position: sticky;
+    top:0;
+    text-align: center;
+    z-index: 1000;  /*kad turetu didziausia prioriteta puslapyje*/
+}
+.pageLinks > a{
+    text-decoration: none;
+    font-size: 1.3rem ;
+    font-weight: 600;
+    padding: 0 10px;
+    transition: 1s;
+}
+.pageLinks> a:hover{
+    color: brown;
+}
+.kvadratas {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgba(50, 189, 255, 0.501);
+}
+
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+
+
+.lt {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+
+    background-color: rgb(248, 235, 47);
+}
+
+.lt2 {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+
+    background-color: rgb(0, 170, 23);
+}
+
+
+.lt3 {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+
+    background-color: rgb(189, 53, 0);
+}
+
+.fr {
+    width: 30px;
+    height: 100px;
+    padding: 5px;
+    display: inline-block;
+    background-color: rgb(2, 16, 212);
+}
+
+.fr2 {
+    width: 30px;
+    height: 100px;
+    padding: 5px;
+    display: inline-block;
+    background-color: white;
+}
+
+
+.fr3 {
+    width: 30px;
+    height: 100px;
+    padding: 5px;
+    display: inline-block;
+    background-color: rgb(189, 53, 0);
+}
+
+.gradlt {
+    width: 120px;
+    height: 100px;
+    background: linear-gradient(to bottom,
+            yellow 0% 33%,
+            green 33% 66%,
+            red 66% 100%
+        )
+}
+.static{
+    position: static;
+}
+
+.top20{
+    top:20px;
+}
+.right50{
+    right:50px;
+}
+.bottom10{
+    bottom:10px;
+}
+.left30{
+    left:30px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position:absolute
+}
+.fixed{
+    position: fixed;
+}
+.sticky{
+    position: sticky;
+}
+.aukstasdivas{
+    height: 300px;
+    border: 1px solid black;
+}
+

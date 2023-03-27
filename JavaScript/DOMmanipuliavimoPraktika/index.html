@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM manipuliavimo praktika</title>
+
+
+    <link rel="stylesheet" href="/JavaScript/DOMmanipuliavimoPraktika/style.css">
+    <script src="/JavaScript/DOMmanipuliavimoPraktika/dataKartu.js" defer></script>
+    <script src="/JavaScript/DOMmanipuliavimoPraktika/main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- <section id="kartu1">
+        <h1 class="'raudonasTekstas pavadinimoTekstas centruotasTekstas">
+            bandymas su InnerHTML
+        </h1>
+        <div class="flex flex-wrap justify-center gap1">
+            <div class="kortele1">
+                <h3>Korteles pavadinimas</h3>
+                <img src="https://scontent.fvno8-1.fna.fbcdn.net/v/t39.30808-6/325666624_2238990026272791_1752925427047283137_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=DFsv8xU3d-UAX96c16I&_nc_ht=scontent.fvno8-1.fna&oh=00_AfDFbHMYLjrBmSTRfn267n2HZZN3iqOfFZLACY3rXePmWA&oe=641DD9F5"
+                    alt="kuprine">
+                <p>Korteles aprasymas bla bla bllaaaaaaaa fjseflkjselkjs</p>
+            </div>
+        </div>
+        <div class="flex flex-wrap justify-center gap1">
+            <div class="kortele1">
+                <h3>Korteles pavadinimas</h3>
+                <img src="https://scontent.fvno8-1.fna.fbcdn.net/v/t39.30808-6/325666624_2238990026272791_1752925427047283137_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=DFsv8xU3d-UAX96c16I&_nc_ht=scontent.fvno8-1.fna&oh=00_AfDFbHMYLjrBmSTRfn267n2HZZN3iqOfFZLACY3rXePmWA&oe=641DD9F5"
+                    alt="kuprine">
+                <p>Korteles aprasymas bla bla bllaaaaaaaa fjseflkjselkjs</p>
+            </div>
+        </div>
+        </div>
+        <div class="flex flex-wrap justify-center gap1">
+            <div class="kortele1">
+                <h3>Korteles pavadinimas</h3>
+                <img src="https://scontent.fvno8-1.fna.fbcdn.net/v/t39.30808-6/325666624_2238990026272791_1752925427047283137_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=DFsv8xU3d-UAX96c16I&_nc_ht=scontent.fvno8-1.fna&oh=00_AfDFbHMYLjrBmSTRfn267n2HZZN3iqOfFZLACY3rXePmWA&oe=641DD9F5"
+                    alt="kuprine">
+                <p>Korteles aprasymas bla bla bllaaaaaaaa fjseflkjselkjs</p>
+            </div>
+        </div>
+
+    </section> -->
+
+    <section id="DOM">
+        <h1>Document Object Model</h1>
+        <p>
+            daug geresnis budas kurti HTML elementus per JS yra ne uzpildant tevinio elemento innerHTML'a kazkokia
+            inmformacija bet kuriant informacijos vienetus kaip kintamuosius ir p[riskiriant juos vienus kitiems.
+        </p>
+        <h3>NODE metodai</h3>
+        <ul>
+            <li>createElement('tagVardas')</li>
+            <li>kam.append(ka, darKazka, irDarKazka)</li>
+            <li>kam.appendChild(ka)</li>
+            <li>setAttribute('name', 'value')</li>
+            <li>classList
+                <ul>
+                    <li>.add('naujaklase')</li>
+                    <li>.remove('esamaklase')</li>
+                    <li>.replace('esamaklase', 'naujaklase')</li>
+                    <li>.toggle('kazkokiaklase') jeigu nera prideda, jei yra - isima</li>
+                </ul>
+
+            </li>
+        </ul>
+        <div id="testZona">
+
+        </div>
+        <section id="kartu2"></section>
+    </section>
+
+<section id="pirmaUzd"></section>
+<h1> labas as krabas</h1>
+<section id="antraUzd"></section>
+<h1> labas as krabas</h1>
+<section id="treciaUzd"></section>
+<h1> labas as krabas</h1>
+</body>
+
+</html>

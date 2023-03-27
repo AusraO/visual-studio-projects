@@ -1,0 +1,463 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.logo {
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 150px;
+    margin-left: 30px;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1/4;
+    grid-column: 1;
+}
+
+.nav {
+    display: none;
+}
+
+i {
+    grid-row: 1;
+    grid-column: 2;
+    font-size: 30px;
+    color: rgb(138, 138, 138);
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.uzrasas {
+    grid-row: 2;
+    grid-column: 2;
+    color: rgb(71, 70, 70);
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+
+}
+
+select {
+    width: 180px;
+}
+
+.navBendras {
+    grid-row: 3;
+    grid-column: 2;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+
+}
+
+.uzrasas2 {
+    padding-top: 5px;
+}
+
+.uzrasasIcon {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+img {
+    width: 650px;
+    padding-right: 25px;
+
+}
+
+span {
+    color: rgb(204, 163, 27);
+}
+
+.oranzinis {
+    color: rgb(204, 163, 27);
+}
+
+.melynas {
+    color: rgb(44, 74, 206);
+}
+
+.box1>.imgKnyga>img {
+    width: 250px;
+}
+
+.box2>.imgKnyga>img {
+    width: 250px;
+}
+
+.box3>.imgKnyga>img {
+    width: 250px;
+}
+
+.box1,
+.box2,
+.box3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.box1>.imgKnyga {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.box2>.imgKnyga {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.box3>.imgKnyga {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.viskasDesineje {
+    padding-top: 20px;
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+button {
+    width: 100px;
+    background-color: rgb(199, 83, 17);
+    border: none;
+}
+
+section>.gridas4>.right>.IkonaApacia1>img {
+    width: 100px;
+}
+
+section>.gridas4>.right>.IkonaApacia2>img {
+    width: 100px;
+}
+
+section>.gridas4>.right>.IkonaApacia3>img {
+    width: 100px;
+}
+
+section>.gridas4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 220px 220px 300px;
+}
+
+.left {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 10px;
+}
+
+.middle {
+    grid-column: 1;
+    grid-row: 2;
+    padding-left: 10px;
+}
+
+.right {
+    grid-column: 1;
+    grid-row: 3;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+.IkonaApacia1>img {
+    width: 150px;
+
+}
+
+.IkonaApacia2>img {
+    width: 150px;
+
+}
+
+.IkonaApacia3>img {
+    width: 150px;
+
+}
+
+
+@media (min-width: 768px) {
+    .navButton {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        color: blue;
+
+    }
+
+    .navBendras {
+        grid-row: 2;
+        grid-column: 2;
+
+    }
+
+    .uzrasas {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .header {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+
+    .gridas2 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .mainText {
+        grid-column: 1;
+        grid-row: 1;
+        width: 400px;
+        padding-left: 15px;
+    }
+
+    .pav {
+        grid-column: 2;
+        grid-row: 1;
+        padding-top: 60px;
+    }
+
+    .pav>img {
+        width: 400px;
+    }
+
+    section>.gridas3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+
+    }
+
+    .box1>.imgKnyga>img {
+        width: 100px;
+        padding-top: 10px;
+
+    }
+
+    .box2>.imgKnyga>img {
+        width: 100px;
+        padding-top: 10px;
+    }
+
+    .box3>.imgKnyga>img {
+        width: 100px;
+        padding-top: 10px;
+    }
+
+    .viskasDesineje {
+        padding-top: 0;
+        padding-left: 0px;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    section>.gridas4 {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .left {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .middle {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .right {
+        grid-row: 1;
+        grid-column: 3;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+
+.IkonaApacia1 >img{
+    width: 100px;
+}
+.IkonaApacia2 >img{
+    width: 100px;
+}
+.IkonaApacia3 >img{
+    width: 100px;
+}
+.labas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 120px;
+    padding-right: 10px;
+    
+}
+.IkonaApacia1{
+    grid-column: 1;
+    grid-row: 1/3;
+}
+.labas > h3{
+    grid-column: 2;
+    grid-row: 1;
+}
+.labas >p{
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0;
+}
+.rytas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 120px;
+    padding-right: 10px;
+    
+}
+.IkonaApacia2{
+    grid-column: 1;
+    grid-row: 1/3;
+}
+.rytas > h3{
+    grid-column: 2;
+    grid-row: 1;
+}
+.rytas >p{
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0;
+}
+
+.visiems{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 120px;
+    padding-right: 10px;
+    
+}
+.IkonaApacia3{
+    grid-column: 1;
+    grid-row: 1/3;
+}
+.visiems > h3{
+    grid-column: 2;
+    grid-row: 1;
+}
+.visiems >p{
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+    .icon1 {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding-left: 600px;
+    }
+
+    .uzrasas {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .navBendras {
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .mainText {
+
+        width: 600px;
+        padding-left: 30px;
+    }
+
+    .pav>img {
+        width: 470px;
+    }
+
+    .pav {
+        padding-top: 0px;
+    }
+
+    .uzrasasIcon {
+        margin-left: 0px;
+    }
+
+
+    .icon2 {
+        padding-left: 200px;
+    }
+
+    .box1>.imgKnyga>img {
+        width: 200px;
+    }
+
+    .box2>.imgKnyga>img {
+        width: 200px;
+    }
+
+    .box3>.imgKnyga>img {
+        width: 200px;
+    }
+
+    .IkonaApacia1 >img{
+        width: 130px;
+    }
+    .IkonaApacia2 >img{
+        width: 130px;
+    }
+    .IkonaApacia3 >img{
+        width: 130px;
+    }
+
+
+
+
+
+}

@@ -1,0 +1,774 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+.header {
+    width: 364px;
+    height: 36px;
+    margin: 32px;
+    display: flex;
+    justify-content: space-between;
+
+    .snadwich {
+        align-self: center;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+.hero {
+    .underImg{
+        background:radial-gradient(circle at 61% 59%, rgba(255, 0, 143, 1) 0%, rgba(255, 255, 255, 1) 28%, rgba(255, 255, 255, 1) 48%);
+    width: 600px;
+    height: 200px;
+    }
+    img {
+        position: absolute;
+        width: 180px;
+        height: auto;
+        left: 325px;
+        top: 120px;
+       
+        
+
+    }
+
+    h3 {
+        color: #FF3998;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.1em;
+
+        position: absolute;
+        width: 171px;
+        height: 19px;
+        left: 32px;
+        top: 148px;
+    }
+
+    h1 {
+        position: absolute;
+        width: 274px;
+        height: 116px;
+        left: 32px;
+        top: 191px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 58px;
+        color: #111111;
+
+    }
+
+    p {
+        position: absolute;
+        width: 274px;
+        height: 120px;
+        left: 32px;
+        top: 331px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        color: #555555;
+    }
+
+    .btn {
+
+        position: absolute;
+        width: 188px;
+        height: 75px;
+        left: 32px;
+        top: 483px;
+        border: solid 3px transparent;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #FF8139, #FF3998);
+        background-origin: border-box;
+        box-shadow: 2px 1000px 1px #fff inset;
+        border-radius: 50px;
+        font-family: 'Inter';
+        font-size: 20px;
+        font-weight: 600;
+
+
+
+    }
+
+}
+
+#first {
+    position: relative;
+    width: 100%;
+    height: 326px;
+    top: 380px;
+    background-image: linear-gradient(90deg,
+            hsl(331deg 100% 61%) 0%,
+            hsl(335deg 100% 62%) 5%,
+            hsl(338deg 100% 63%) 9%,
+            hsl(343deg 100% 64%) 14%,
+            hsl(347deg 100% 65%) 18%,
+            hsl(352deg 100% 66%) 23%,
+            hsl(358deg 100% 68%) 27%,
+            hsl(4deg 100% 67%) 32%,
+            hsl(9deg 100% 66%) 37%,
+            hsl(14deg 100% 64%) 41%,
+            hsl(18deg 100% 63%) 46%,
+            hsl(22deg 100% 61%) 50%,
+            hsl(20deg 100% 61%) 55%,
+            hsl(19deg 100% 61%) 59%,
+            hsl(17deg 100% 61%) 64%,
+            hsl(16deg 100% 61%) 68%,
+            hsl(14deg 100% 61%) 73%,
+            hsl(12deg 100% 61%) 77%,
+            hsl(10deg 100% 61%) 82%,
+            hsl(8deg 100% 61%) 86%,
+            hsl(6deg 100% 61%) 91%,
+            hsl(3deg 100% 61%) 95%,
+            hsl(0deg 100% 61%) 100%);
+
+    .firstInside {
+        width: 364px;
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+
+
+
+        h1 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 48px;
+            padding-top: 70px;
+
+        }
+
+        p {
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+        }
+    }
+}
+
+#second {
+    .secondInside {
+        width: 90%;
+        position: absolute;
+        top: 1100px;
+        margin-left: 20px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+
+        :nth-child(4) {
+            display: none;
+        }
+    }
+}
+
+#third {
+    .thirdInside {
+        width: 90%;
+        position: absolute;
+        top: 1250px;
+        margin-left: 20px;
+
+        h1 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 48px;
+        }
+
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            color: #555555;
+
+            span {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+#fourth {
+    .fourthInside {
+        position: absolute;
+        top: 1550px;
+        display: flex;
+        gap: 1rem;
+        overflow: scroll;
+        width: 90%;
+        margin-left: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+
+        .card1,
+        .card2,
+        .card3,
+        .card4 {
+            width: 290px;
+            height: 430px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 4fr 1fr 1fr 1fr;
+            background-color: #EEEEEE;
+            border-radius: 30px;
+
+
+            img {
+                width: 290px;
+                height: 278px;
+                grid-row: 1;
+                grid-column: 1;
+            }
+
+            .floor1 {
+                grid-row: 2;
+                grid-column: 1;
+                display: flex;
+                justify-content: space-between;
+                padding-left: 10px;
+                padding-right: 10px;
+
+                :first-child {
+
+                    font-size: 12px;
+                    line-height: 100%;
+                    color: #FF8139;
+                }
+
+                :last-child {
+
+                    font-size: 12px;
+                    line-height: 100%;
+                    color: #777777;
+                }
+            }
+
+            .floor2 {
+                grid-row: 3;
+                grid-column: 1;
+                display: flex;
+                justify-content: space-between;
+                padding-left: 10px;
+                padding-right: 10px;
+
+                .right {
+                    display: flex;
+
+                    img {
+                        width: 13px;
+                        height: 22px;
+                        align-self: center;
+                    }
+                }
+
+                p {
+                    font-size: 20px;
+                    line-height: 100%;
+                }
+            }
+
+            .floor3 {
+                grid-row: 4;
+                grid-column: 1;
+                display: flex;
+                justify-content: space-between;
+                padding-left: 10px;
+                padding-right: 10px;
+
+                p {
+                    font-size: 18px;
+                    line-height: 100%;
+                    color: #777777;
+                }
+            }
+
+        }
+
+    }
+}
+
+#fifth {
+    position: absolute;
+    top: 1900px;
+
+    .fifthInside {
+
+        img {
+            position: absolute;
+            width: 180px;
+            height: auto;
+            left: 300px;
+            top: 250px;
+           
+
+
+        }
+
+        h3 {
+            color: #FF3998;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.1em;
+
+            position: absolute;
+            width: 171px;
+            height: 19px;
+            left: 32px;
+            top: 148px;
+        }
+
+        h1 {
+            position: absolute;
+            width: 274px;
+            height: 116px;
+            left: 32px;
+            top: 191px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 45px;
+            line-height: 58px;
+            color: #111111;
+
+        }
+
+        p {
+            position: absolute;
+            width: 274px;
+            height: 120px;
+            left: 32px;
+            top: 331px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            color: #555555;
+        }
+
+        .btn1 {
+
+            position: absolute;
+            width: 188px;
+            height: 75px;
+            left: 32px;
+            top: 483px;
+            border: solid 3px transparent;
+            background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #FF8139, #FF3998);
+            background-origin: border-box;
+            box-shadow: 2px 1000px 1px #fff inset;
+            border-radius: 50px;
+            font-family: 'Inter';
+            font-size: 20px;
+            font-weight: 600;
+
+
+
+        }
+
+    }
+}
+
+
+#sixth {
+    position: absolute;
+    top: 2600px;
+    width: 90%;
+    margin-left: 20px;
+    color: #555555;
+    font-size: 20px;
+
+    .left {
+        .icons {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+
+    .right {
+        #table1 {
+            width: 350px;
+
+
+            td,
+            th {
+                padding: 10px;
+                text-align: left;
+
+            }
+        }
+
+        #table2 {
+            width: 350px;
+            margin-top: 20px;
+
+            td,
+            th {
+                padding: 10px;
+                text-align: left;
+
+            }
+        }
+    }
+ 
+}
+
+#footer{
+    position: absolute;
+    top: 3250px;
+    width: 90%;
+    text-align: center;
+    color: #999999;
+    font-size: 20px;
+    :last-child{
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 1440px) {
+    .header {
+        width: 1280px;
+        height: 36px;
+        margin-top: 70px;
+        margin-left: 80px;
+        margin-right: 80px;
+        display: flex;
+        justify-content: space-between;
+
+        .sandwich {
+            display: none;
+        }
+
+        nav {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 100%;
+            display: flex;
+            justify-content: right;
+            gap: 2rem;
+            color: #555555;
+
+            :last-child {
+                color: #FF3998;
+            }
+        }
+    }
+
+    .hero {
+        position: absolute;
+        width: 1120px;
+        height: 519px;
+        left: 80px;
+        top: 288px;
+        background:radial-gradient(circle at 77% 55%, rgba(255, 0, 143, 1) 0%, rgba(255, 255, 255, 1) 28%, rgba(255, 255, 255, 1) 48%);
+.underImg{
+    display: none;
+}
+        h3 {
+            position: absolute;
+            width: 171px;
+            height: 19px;
+
+            top: 10px;
+
+        }
+
+        h1 {
+            position: absolute;
+            width: 620px;
+            height: 232px;
+
+            top: 20px;
+            font-weight: 900;
+            font-size: 96px;
+            line-height: 116px;
+        }
+
+        p {
+            position: absolute;
+            width: 537px;
+            height: 60px;
+            top: 320px;
+        }
+
+        .btn {
+            position: absolute;
+
+            top: 420px;
+
+        }
+
+        img {
+            position: absolute;
+            width: 328px;
+            height: 519px;
+            left: 790px;
+            top: 0px;
+        }
+    }
+
+    #first {
+        margin-left: 60px;
+        position: relative;
+        width: 90%;
+        height: 326px;
+        top: 800px;
+        border-radius: 30px;
+        background-image: linear-gradient(75deg,
+                hsl(331deg 100% 61%) 0%,
+                hsl(336deg 100% 62%) 4%,
+                hsl(342deg 100% 63%) 9%,
+                hsl(349deg 100% 65%) 13%,
+                hsl(357deg 100% 67%) 18%,
+                hsl(5deg 100% 67%) 22%,
+                hsl(12deg 100% 65%) 27%,
+                hsl(18deg 100% 62%) 31%,
+                hsl(21deg 100% 61%) 35%,
+                hsl(19deg 100% 61%) 40%,
+                hsl(17deg 100% 61%) 44%,
+                hsl(15deg 100% 61%) 49%,
+                hsl(12deg 100% 61%) 53%,
+                hsl(9deg 100% 61%) 57%,
+                hsl(5deg 100% 61%) 62%,
+                hsl(1deg 100% 61%) 66%,
+                hsl(13deg 98% 57%) 70%,
+                hsl(29deg 100% 48%) 74%,
+                hsl(39deg 100% 45%) 79%,
+                hsl(50deg 100% 41%) 83%,
+                hsl(64deg 93% 40%) 87%,
+                hsl(85deg 68% 56%) 92%,
+                hsl(116deg 79% 69%) 96%,
+                hsl(151deg 100% 61%) 100%);
+
+        .firstInside {
+            width: 600px;
+            margin-left: 40px;
+
+
+
+
+            h1 {
+                font-family: 'Inter';
+                font-style: normal;
+                padding-top: 120px;
+
+            }
+
+        }
+    }
+
+    #second {
+        .secondInside {
+            width: 90%;
+            position: absolute;
+            top: 1350px;
+            margin-left: 60px;
+            display: flex;
+            gap: 1.5rem;
+            justify-content: space-between;
+
+            :nth-child(4) {
+                display: flex;
+
+            }
+        }
+    }
+
+    #third {
+        .thirdInside {
+            width: 90%;
+            position: absolute;
+            top: 1450px;
+            margin-left: 60px;
+
+
+        }
+    }
+
+    #fourth {
+        .fourthInside {
+            gap: 2rem;
+            margin-left: 60px;
+            display: flex;
+            justify-content: space-between;
+            top: 1650px;
+        }
+    }
+
+    //   .hr {
+    //     position: absolute;
+    //     top: 10px;
+    //   }
+
+    #fifth {
+        .fifthInside {
+            position: absolute;
+            width: 1120px;
+            height: 519px;
+            left: 80px;
+            top: 288px;
+
+            h3 {
+                position: absolute;
+                width: 171px;
+                height: 19px;
+
+                top: 10px;
+
+            }
+
+            h1 {
+                position: absolute;
+                width: 620px;
+                height: 232px;
+
+                top: 20px;
+                font-weight: 900;
+                font-size: 96px;
+                line-height: 116px;
+            }
+
+            p {
+                position: absolute;
+                width: 537px;
+                height: 60px;
+                top: 320px;
+            }
+
+            .btn {
+                position: absolute;
+
+                top: 420px;
+
+            }
+
+            img {
+                position: absolute;
+                width: auto;
+                height: 570px;
+                left: 790px;
+                top: 0px;
+            }
+        }
+    }
+
+    #sixth {
+        position: absolute;
+        top: 2900px;
+        width: 90%;
+        margin-left: 20px;
+        color: #555555;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+
+        line-height: 100%;
+
+        .left {
+            margin-left: 60px;
+            margin-right: 450px;
+            p{
+            width: 250px;
+            }
+            .icons {
+                display: flex;
+                gap: 1.5rem;
+            }
+        }
+
+
+
+        .right {
+            display: flex;
+            flex-direction: row;
+
+            #table1 {
+                width: 350px;
+
+
+                td,
+                th {
+                    padding: 10px;
+                    text-align: left;
+
+                }
+            }
+        }
+
+        .right2 {
+
+            #table2 {
+                width: 350px;
+                margin-top: 0;
+
+
+                td,
+                th {
+                    padding: 10px;
+                    text-align: left;
+
+                }
+            }
+        }
+
+    }
+    #footer{
+        position: absolute;
+        top: 3070px;
+        width: 90%;
+        text-align: center;
+        color: #999999;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 60px;
+        :last-child{
+            display: flex;
+        }
+    }
+    
+}

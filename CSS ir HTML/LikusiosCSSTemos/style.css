@@ -1,0 +1,19 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import 'variables.css';
+:root {
+  --melsva-spalva: rgb(154, 236, 209);
+}
+
+.labas {
+  background-color: aqua;
+  border-radius: 15px;
+  border: 1px black solid;
+  color: rgb(154, 236, 209);
+  width: 150px;
+  height: 150px;
+}
+.labas > .rytas {
+  color: red;
+  font-size: 3rem;
+}/*# sourceMappingURL=style.css.map */

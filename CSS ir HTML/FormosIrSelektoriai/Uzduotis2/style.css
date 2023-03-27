@@ -1,0 +1,103 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+
+.pirmas {
+    background-color: #5CCE93;
+    text-align: center;
+}
+
+.antras {
+    background-color: #5CCE93;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.9rem;
+
+
+}
+
+.aa {
+    gap: 10;
+
+
+}
+
+.trecias {
+    background-color: #5CCE93;
+}
+
+.desine {
+    background-color: #c5c5c5;
+}
+
+.bendras {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.desine {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    width: 600px;
+    font-size: smaller;
+
+}
+
+
+.gridColumnSpan2 {
+    grid-column: span 2;
+}
+
+
+
+.gridRowSpan2 {
+    grid-row: span 2;
+}
+
+.antras {
+    grid-column-start: 1;
+    grid-row-start: 2;
+
+
+}
+
+.trecias {
+    grid-column-start: 2;
+    grid-row-start: 2;
+
+}
+
+.svg {
+
+    margin: auto
+}
+
+button {
+
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #5CCE93;
+
+
+}
+
+.apjuosiaDesine {
+    margin: 20px;
+    display: inline-block;
+
+}
+
+.labelPavad {
+    display: flex;
+    justify-content: space-around;
+}
+
+.laukeliai {
+    display: inline-flex;
+border:none;
+    margin-right: 30px;
+}

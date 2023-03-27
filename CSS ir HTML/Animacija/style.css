@@ -1,0 +1,150 @@
+body{
+    background-color: rgba(194, 146, 26, 0.37);
+}
+
+.mygtuciokas{
+    margin: 20px;
+    text-align: center;
+}
+.btn {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: var(--clr-rgba);
+    border: 10px solid var (--clr-accent);
+    border-radius: 5px;
+
+    transition: all 0.3s
+
+}
+
+.btn:hover {
+    transform: translateY(-10px);
+    background-color: var(--clr-accent);
+    color: var(--clr-light)
+}
+
+
+
+
+section{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/*UTILITY CLASSES*/
+.animate.animate{
+    animation-duration:1s;
+    animation-fill-mode:both;
+}
+.animate.animate--infinite{
+    animation-iteration-count:infinite;
+}
+.animate.animate--delay-1s{
+    animation-delay: 1s;
+}
+.animate.animate--fast{
+    animation-duration:0.6s;
+    
+}
+.animate.animate--slow{
+    animation-duraton: 3s;
+}
+/*ANIMATIONS*/
+@keyframes slideInLeft{
+    from{
+transform:translateX(-300px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+.slideInLeft{
+animation-name: slideInLeft;
+animation-timing-function: ease-in;
+
+}
+@keyframes slideInRight{
+    from{
+transform:translateX(300px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+.slideInRight{
+    animation-name: slideInRight;
+    animation-timing-function: ease-in;
+    
+    }
+
+    @keyframes rotate{
+        from{
+            transform:rotate(0);
+        }
+        to{
+            transform:rotate(360deg);
+        }
+
+    }
+    .rotate{
+        animation-name: rotate;
+        animation-timing-function: linear;
+        transform-origin: top left;
+    }
+
+
+    @keyframes bounce{
+0%{
+    transform: translateY(0);
+}
+20%{
+    transform: translateY(0)
+}
+
+40%{
+    transform:translateY(-30px)
+}
+50%{
+    transform:translateY(0)
+}
+60%{
+    transform:translateY(-15px)
+}
+
+100%{
+    transform: translateY(0);
+}
+    }
+.bounce{
+    animation-name: bounce;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

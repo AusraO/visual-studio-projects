@@ -1,0 +1,30 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+
+.bendras >div :first-child {
+    width: 200px;
+    display: inline-block;
+    font-size: 100;
+    color: aliceblue;
+    font-size: large;
+}
+
+
+.bendras {
+
+    background-color: #74203F;
+    width: 500px;
+    padding: 20px 20px 20px 50px;
+    margin: 0 auto;
+
+    color:aliceblue
+}
+
+button {
+    padding: 5px 150px 5px 150px;
+    border-radius: 5px;
+    font-size:xx-large;
+    color:rgb(70, 70, 70);
+    text-align: center;
+
+}

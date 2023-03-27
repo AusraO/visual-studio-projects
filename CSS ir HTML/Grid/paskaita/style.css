@@ -1,0 +1,44 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+
+#gridPvz > div:nth-child(1){
+    background-color: aquamarine;
+    grid-area: 3/7/5/10;
+}
+#gridPvz > div:nth-child(2){
+    background-color: rgb(140, 127, 255);
+      grid-column-start: 2;
+    grid-row-start: 1;
+    grid-column-end: 5;
+    grid-row-end: 3;
+    z-index: 1;
+}
+#gridPvz > div:nth-child(3){
+    background-color: rgb(192, 189, 28);
+    grid-column-start: 5;
+    grid-row-start:3;
+}
+#gridPvz > div:nth-child(4){
+    background-color: rgb(192, 93, 69);
+}
+#gridPvz > div:nth-child(5){
+    background-color: rgb(202, 127, 186);
+}
+#gridPvz > div:nth-child(6){
+    background-color: rgb(52, 177, 177);
+    grid-column: 3/5;
+    grid-row: 2/5;
+    
+}
+#gridPvz > div:nth-child(7){
+    background-color: rgb(129, 134, 85);
+}
+
+
+#gridPvz{
+    display: grid;
+    font-size: 4rem;
+   
+    grid-template: repeat( 2, 100px 75px)/repeat(3, 150px 70px 150px);
+    gap: 5px 3px;
+}

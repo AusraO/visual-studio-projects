@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(25, 84, 247, 0.514);
+}
+
+.isore {
+    text-align: center;
+}
+
+.box1 {
+
+    padding: 15px;
+    margin: 50px;
+    border: 3px solid rgba(25, 84, 247, 0.514)
+}
+
+img {
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.isore2 {
+    text-align: center;
+}
+
+.box2 {
+
+    padding: 15px;
+    margin: 50px;
+    border: 3px solid rgba(25, 84, 247, 0.514);
+    background-image: url(https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+    color: aliceblue
+}
+
+
+
+
+.isore3 {
+    text-align: center;
+}
+
+.box3 {
+
+    padding: 15px;
+    margin: 20px;
+    border: 3px solid rgba(25, 84, 247, 0.514);
+    background-image: url(https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+    color: aliceblue
+}

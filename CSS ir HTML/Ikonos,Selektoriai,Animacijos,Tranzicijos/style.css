@@ -1,0 +1,175 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+h1{
+    color: #ff0e0e;
+}
+*[class*="bi"]{
+background-color: blueviolet;
+color: blanchedalmond;
+font-size: 40px;
+}
+
+.tranzitionPvz >div:nth-child(1){
+    width:100px;
+    height:100px;
+    color: white;
+    background-color: black;
+    transition-property:width;
+    /* transition-duration: 5s;
+    transition-delay: 1s;
+    transition-timing-function: ease; */
+    transition: width 5s 1s ease;
+}
+
+.tranzitionPvz > div:nth-child(1):hover{
+    width: 500px;
+    color: rgb(58, 94, 126);
+    font-size: 30px;
+}
+
+.mygtuciokas > button{
+    width:200px;
+    height: 70px;
+    color: #e78181;
+    background-color: rgb(4, 3, 54);
+    transition: all 0.5s 0.2s ease-in;
+}
+
+.mygtuciokas > button:hover{
+    width: 220px;
+    height: 80px;
+    color: rgb(170, 126, 69);
+    background-color: rgb(3, 36, 0);
+}
+
+div.helperTall{
+    height: 100vh;
+}
+
+.animationPvz > div:nth-child(1){
+    width: 150px;
+    height: 100px;
+    background-color: #ff0e0e;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: betkoks; */
+    animation: 10s linear 0s infinite alternate none running betkoks;
+}
+
+@keyframes betkoks{
+0%{
+    background-color: azure;
+    border: 5px solid black;
+    transform: translateX(300px)
+}
+50%{   
+    background-color: rgb(187, 126, 12);
+    color: black;
+    border: none;
+    transform: translate(100px, 300px);
+}
+100%{
+    transform: translate(100px, 0px);
+    border-radius: 50%;
+}
+}
+.animationPvz > div:nth-child(1):hover{
+animation-play-state: paused;
+}
+
+
+.manoMano > div:nth-child(1){
+    width: 150px;
+    height: 100px;
+    background-color: #ff0e0e;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+animation: 5s linear 0s infinite alternate none running manoAnimacija;
+}
+
+@keyframes manoAnimacija{
+    0%{
+        background-color: rgb(78, 153, 153);
+        color: #e78181;
+        transform: translateY(300px);
+        border-radius: 30%;
+    }
+    50%{   
+        background-color: rgb(93, 136, 58);
+        color: rgb(43, 15, 15);
+        border-radius: 40%;
+        
+    }
+    100%{
+        background-color: rgb(171, 173, 25);
+        transform: translateY(100px, 0px);
+        border-radius: 50%;
+        color: #a16d6d;
+    }
+    }
+    .animationPvz > div:nth-child(1):hover{
+    animation-play-state: paused;
+    }
+  
+    .manoMano2 > div:nth-child(1){
+      
+        width: 150px;
+        height: 100px;
+        background-color: #ff0e0e;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    animation: 0.3s linear 1s infinite alternate none running  manoAnimacija2;
+    }
+    
+    @keyframes manoAnimacija2{
+        0%{
+            background-color: rgb(95, 139, 117);
+            
+            transform: skew( 10deg);
+            
+        
+        }
+     
+        50%{
+            background-color: rgb(171, 173, 25);
+            transform: skew(0deg);
+         
+
+        }
+        100%{
+            background-color: rgb(171, 173, 25);
+            transform: skew(-10deg);
+       
+        }
+        }
+        .animationPvz > div:nth-child(1):hover{
+        animation-play-state: paused;
+        }
+
+        body{
+            background-color: blanchedalmond;
+        }
+
+
+        @media (min-width: 678px){
+            body{
+                background-color: rgb(37, 27, 11);
+            }
+        }
