@@ -1,0 +1,22 @@
+section#moduliai{
+    display: none
+}
+
+.raudonasTekstas{
+    color: red;
+
+}
+.centruotasTekstas{
+    text-align: center;
+    vertical-align: middle;
+
+}
+.didelisTekstas{
+    font-size: 3rem;
+
+}
+@media(min-width: 992px){
+    .didelisTekstas{
+        font-size: 5rem;
+    }
+}
