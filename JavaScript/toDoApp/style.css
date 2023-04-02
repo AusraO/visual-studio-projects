@@ -1,0 +1,66 @@
+.kortele{
+    width: 500px;
+    height: 200px;
+    box-shadow: 5px 10px 18px #888888;
+    background-color: #faeaea;
+    text-align: center;
+}
+
+
+.textArea{
+    height: 30px;
+    border-radius: 10px;
+    border: #d4d4d4 1px solid;
+    box-shadow: 3px 5px 7px #aaaaaa;
+}
+
+.button{
+    width: 150px;
+    margin-left: 10px;
+    height: 35px;
+    border: none;
+    background-color: rgb(195, 218, 252);
+    box-shadow: 3px 5px 7px #b3b3b3;
+}
+
+
+.toDoBox{
+    width: 500px;
+    height: 80px;
+    box-shadow: 5px 10px 18px #888888;
+    background-color: #faeaea;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.toDoElementTextProperties{
+    margin-left: 15px;
+}
+
+.deleteTaskButton{
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: rgb(195, 218, 252);
+    box-shadow: 3px 5px 7px #b3b3b3;
+    margin-right: 15px;
+   
+}
+.lineThrough{
+    text-decoration: line-through;
+}
+
+
+
+.doneButton{
+    width: 70px;
+    margin-left: 10px;
+    height: 35px;
+    border: none;
+    background-color: rgb(195, 218, 252);
+    box-shadow: 3px 5px 7px #b3b3b3;
+}
