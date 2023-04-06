@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json server</title>
+    <link rel="stylesheet" href="/JavaScript/duomenuSaugojimasVartotojoDalyje/style.css">
+    <script src="/JavaScript/jsonServerisFetchMetodai/scripts/main.js" type="module" defer></script>
+
+
+</head>
+<body>
+    <secion id="newCard">
+        <form>
+<input type="text" name="vardas" id="'vardas" placeholder="iveskite varda..">
+<input type="text" name="pavarde" id="'pavarde" placeholder="iveskite pavarde...">
+<input type="number" step="1" name="amzius" id="amzius", placeholder="iveskite amziu...">
+<div>
+    <label for="vedes">Ar esi vedes/tekejusi?</label>
+    <input type="checkbox" name="vedes" id="vedes">
+</div>
+<div>
+    <label for="vyras">Vyras</label>
+    <input type="radio" name="lytis" id="vyras" value="vyras">
+    <label for="moteris">Moteris</label>
+    <input type="radio" name="lytis" id="moteris" value="moteris">
+</div>
+<input type="url" name="profileImage" id="profileImage" placeholder="pateikite savo nuotrauka...">
+<input type="submit" value="Pateikti">
+        </form>
+    </secion>
+    <section id="cards">
+        <h1>All cards</h1>
+        <div id="allCards">
+            <div class="card">
+                <h1>Vardas Pavarde</h1>
+                <img src="" alt="foto">
+                <p>amzius:skaicius</p>
+                <p>seimyninis statusas: vedes/istekejusi</p>
+                <button>Delete this card</button>
+            </div>
+        </div>
+    </section>
+   
+</body>

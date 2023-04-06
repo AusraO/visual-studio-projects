@@ -1,0 +1,28 @@
+#allPosts{
+    display: flex;
+    gap: 10px;
+}
+
+.post{
+    width:200px;
+    height: 300px;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative
+
+}
+
+.post >h1{
+    text-align: center;
+}
+
+.post > p{
+    text-align: justify;
+}
+
+.post >span{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}

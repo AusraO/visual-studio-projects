@@ -1,20 +1,13 @@
 
 export class kurtiNaujaKortele {
-    abc = 'abc'
     constructor(input, nodeSection) {
         this.nodeSection = nodeSection
         this.input = input;
-     
-        console.log('kjhfkjdhf')
         return this.render()
-
     }
 
-
     render() {
-console.log(this.abc)
 
-        // function kurtiNaujaKortele(event) {
         event.preventDefault();
 
         this.toDoElement = document.createElement('div');
@@ -26,17 +19,14 @@ console.log(this.abc)
         this.itsDone.append(this.itsDoneText);
         this.toDoElement.append(this.itsDone);
 
-        this.toDoElementTextBox = document.createElement('div');
+        this.toDoElementTextBox = document.createElement('div');// ne tekst elementas
 
         this.toDoElementText = document.createTextNode(this.input.value);
         this.toDoElement.append(this.toDoElementTextBox);
         this.toDoElementTextBox.append(this.toDoElementText);
         this.nodeSection.append(this.toDoElement);
 
-        this.itsDone.addEventListener('click', this.crossOut);
-
-
-
+        this.itsDone.addEventListener('click', this.crossOut(event, this.toDoElementTextBox));
 
 
         this.trynimoMygtukas = document.createElement('button');
@@ -46,16 +36,12 @@ console.log(this.abc)
         this.trynimoMygtukas.append(this.trynimoMygtukoTekstas);
         this.trynimoMygtukas.addEventListener('click', (e) => {
             e.target.parentElement.remove();
-
         });
-        return this.toDoElement//
+        return this.toDoElement
     }
-    crossOut(event) {
-        
+ crossOut(event) {
+
         event.preventDefault();
-        console.log(this.abc)
-        this.toDoElementTextBox.classList.add('lineThrough'); //kodel isemus sita kas antra karta daro tik zymejima???
-        this.itsDoneText.textContent = 'Undo';
 
         this.itsDone.addEventListener('click', () => {
             if (this.toDoElementTextBox.classList.contains('lineThrough')) {
@@ -71,4 +57,4 @@ console.log(this.abc)
     }
 
 }
-    // }
+

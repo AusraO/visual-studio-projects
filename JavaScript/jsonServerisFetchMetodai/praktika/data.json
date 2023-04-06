@@ -1,0 +1,80 @@
+{
+  "MoviesAndSeries": [
+    {
+      "id": 3,
+      "name": "The Matrix",
+      "production": "movie",
+      "genre": "Action sci-fi",
+      "year": 1999,
+      "length": "2h 16m",
+      "imdbRating": 8.7,
+      "oscars": true,
+      "picture": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      "about": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence."
+    },
+    {
+      "id": 4,
+      "name": "It's a Wonderful Life",
+      "production": "movie",
+      "genre": "Drama",
+      "year": 1946,
+      "length": "2h 10m",
+      "imdbRating": 8.6,
+      "oscars": false,
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/2/25/It%27s_a_Wonderful_Life_%281946_poster%29.jpeg",
+      "about": "An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed."
+    },
+    {
+      "id": 5,
+      "name": "The Truman Show",
+      "production": "movie",
+      "genre": "Comedy drama",
+      "year": 1998,
+      "length": "1h 43m",
+      "imdbRating": 8.2,
+      "oscars": false,
+      "picture": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/12b4afd1d605b2f5bdb5be3c8d31f39fdbdcd4ae92b62c236dad2a23d7e8e925._RI_V_TTW_.jpg",
+      "about": "An insurance salesman discovers his whole life is actually a reality TV show."
+    },
+    {
+      "id": 6,
+      "name": "Pocahontas",
+      "production": "movie animation",
+      "genre": "Adventure drama",
+      "year": 1995,
+      "length": "1h 21m",
+      "imdbRating": 6.7,
+      "oscars": true,
+      "picture": "https://resizing.flixster.com/SbLJ-cJ1jjVLlG4bDK6-bBC-wPY=/206x305/v2/https://flxt.tmsimg.com/assets/p16835_p_v8_ad.jpg",
+      "about": "An English soldier and the daughter of an Algonquin chief share a romance when English colonists invade seventeenth century Virginia."
+    },
+    {
+      "name": "The Orville",
+      "production": "TV series",
+      "genre": "Sci-Fi comedy",
+      "year": 2017,
+      "imdbRating": 8,
+      "oscars": false,
+      "picture": "https://m.media-amazon.com/images/M/MV5BMzBkZGM1OTQtYmIyNi00ZjM4LWJlNGItNGM0ZWVhODU3YWVlXkEyXkFqcGdeQXVyNzY3NzAzOTA@._V1_.jpg",
+      "id": 8,
+      "about": "Set 400 years in the future, finds the crew of the U.S.S. Orville continuing their mission of exploration, as they navigate both the mysteries of the universe and the complexities of their own interpersonal relationships."
+    },
+    {
+      "name": "erwew",
+      "production": "erewrwre",
+      "genre": "ewewrere",
+      "year": 1655,
+      "imdbRating": 5,
+      "oscars": true,
+      "picture": "",
+      "id": 1680684941356
+    },
+    {
+      "name": "rewrerewrewr",
+      "production": "rerwerrwe",
+      "year": 5555,
+      "picture": "",
+      "id": 1680694702922
+    }
+  ]
+}

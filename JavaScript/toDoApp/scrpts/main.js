@@ -15,6 +15,8 @@
 // Kai sukuriamas naujas elementas - pasipildytų duomenys; kai ištrinamas esantis elementas - jis būtų išimamas iš duomenų; 
 //kai pažymimas kaip atliktas arba neatlikas - duomenyse pasikeistų jo atlikimo statusas.
 //5) Patobulinti aplikaciją taip, kad duomenys būtų saugojami, trinami arba redaguojami localStorage'e.
+
+
 import { kurtiNaujaKortele } from "./newCardCreation.js";
 
 const nodeSection = document.querySelector('#nodeElements');
@@ -42,15 +44,13 @@ inputSubmit.setAttribute('value', '+ Add new task');
 inputSubmit.classList.add('button')
 forma.append(inputSubmit);
 dezute.append(forma);
-// let tusciaDeze=document.createElement('div');
-// nodeSection.append(tusciaDeze);
-// tusciaDeze.append();
+
 
 inputSubmit.addEventListener('click', naujosKortelesFunkcija);
 
 function naujosKortelesFunkcija(){
     const NaujaKortele=new kurtiNaujaKortele(input, nodeSection )
-  console.log('4535')
+  
    
 }
 

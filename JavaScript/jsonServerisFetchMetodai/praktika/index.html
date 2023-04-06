@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json server praktika</title>
+    <link rel="stylesheet" href="/JavaScript/jsonServerisFetchMetodai/praktika/style.css">
+    <script src="/JavaScript/jsonServerisFetchMetodai/praktika/main.js" type="module" defer></script>
+
+
+</head>
+<body>
+    <section id="createNewCard">
+        <h1>Add your own movie:</h1>
+        <form>
+            <input type="text" name="Name" id="name" placeholder="Enter movie name..."><br>
+        <input type="text" name="Production" id="production" placeholder="Enter production..."><br>
+        <input type="text" name="Genre" id="genre" placeholder="Enter genre..."><br>
+        <input type="number" step="1" name="Release year" id="year" placeholder="Enter release year..."><br>
+        <input type="text" name="Length" id="length" placeholder="Enter length in hours..."><br>
+        <input type="number" step= 1.0 name="IMDB rating" id="imdbRating" placeholder="Enter IMDB rating..."><br>
+        
+        <div>
+          <label for="oscars">Has the production won any oscars?</label>
+          <input type="checkbox" name="Oscars" id="oscars">
+        </div>
+    
+        <input type="url" name="Picture" id="picture" placeholder="Add production poster..."><br>
+        <input type="submit" value="Add movie">
+        </form>
+    </section>
+    <section id="cards"></section>
+    <section id="modalas"class="modal hidden"></section>
+</body>
+</html>
+
+
+<!-- Užduotis:
+  Sukurti CRuD (nereikia update) aplikaciją laisva tema naudojant JSON-server.
+  
+  Susikurti JSON failą su pradiniais duomenimis apie pasirinktą temą (filmus, aktorius, knygas, autorius, žaidimus, sportus, .........) 
+  (info, bent 7 raktiniai žodžiai objekte) ir su juo pasileisti JSON serverį.
+  
+  Į ekraną išvesti visus duomenis.
+  Galimybė pridėti naują duomenį.
+  Galimybė trinti pasirinktą duomenį.
+
+  Viską stilizuoti.
+
+Eiga:
+  1) Susikurti JSON failą su pradiniai duomenimis.ls
+
+  2) Pasileisti JSON serverį.
+  3) Nuskaityti JSON serverio duomenis.
+  4) Sukurti ir išvesti duomenų korteles į ekraną.
+  5) Pridėti naujų duomenų sukūrimo formą.
+  6) Pridėti duomenų kortelėms delete'inimo galimybę.
+
+Patobulinti:
+  ID generuojamas pagal jūsų nurodytą komandą.
+  Pradžioje ekrane rodoma tik maža informacija apie duomenį.
+   Kai ant jo paspaudžiauma nukeliama į naują puslapį arba atidaromas modalas, kur rodoma platesnė informacija apie elementą.
+  Būtų galimybė filtruoti duomenis pagal tam tikrą kriterijų. -->
