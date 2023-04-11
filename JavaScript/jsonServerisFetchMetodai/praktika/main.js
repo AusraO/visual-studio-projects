@@ -17,11 +17,11 @@ fetch('http://localhost:3000/MoviesAndSeries')
     const filmas = {
       name: cardElements.name.value,
       production: cardElements.production.value,
-    //   genre: cardElements.genre.value,
+      genre: cardElements.genre.value,
       year: cardElements.year.valueAsNumber,
-    //   length: cardElements.length.value,
-    //   imdbRating: cardElements.imdbRating.valueAsNumber,
-    //   oscars: cardElements.oscars.checked,
+      length: cardElements.length.value,
+      imdbRating: cardElements.imdbRating.valueAsNumber,
+      oscars: cardElements.oscars.checked,
       picture: cardElements.picture.value,
       id: Date.now()
     };
