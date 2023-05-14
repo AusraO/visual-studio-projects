@@ -1,0 +1,74 @@
+{
+    "countries": [
+        {
+            "id": 0,
+            "status": "visited",
+            "name": "Lithuania",
+            "image": "https://fullsuitcase.com/wp-content/uploads/2019/12/Best-things-to-do-in-Lithuania-the-ultimate-guide.jpg",
+            "description": "Lithuania, officially the Republic of Lithuania, is a country in the Baltic region of Europe. It is one of three Baltic states and lies on the eastern shore of the Baltic Sea. Lithuania shares land borders with Latvia to the north, Belarus to the east and south, Poland to the south, and Russia to the southwest."
+        },
+        {
+            "id": 1,
+            "status": "not visited",
+            "name": "Azerbaijan",
+            "image": "https://www.guliveriokeliones.lt/files/2021-12/13138_large.jpg",
+            "description": "Azerbaijan, the nation and former Soviet republic, is bounded by the Caspian Sea and Caucasus Mountains, which span Asia and Europe. Its capital, Baku, is famed for its medieval walled Inner City. Within the Inner City lies the Palace of the Shirvanshahs, a royal retreat dating to the 15th century, and the centuries-old stone Maiden Tower, which dominates the city skyline."
+        },
+        {
+            "id": 2,
+            "status": "visited",
+            "name": "USA",
+            "image": "https://upload.wikimedia.org/wikipedia/lt/9/93/JAV_valstijos_su_pavadinimais.jpg",
+            "description": "The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC. Midwestern metropolis Chicago is known for influential architecture and on the west coast, Los Angeles' Hollywood is famed for filmmaking."
+        },
+        {
+            "id": 3,
+            "status": "not visited",
+            "name": "Italy",
+            "image": "https://cdn.britannica.com/82/195482-050-2373E635/Amalfi-Italy.jpg",
+            "description": "Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins. Other major cities include Florence, with Renaissance masterpieces such as Michelangelo’s \"David\" and Brunelleschi's Duomo; Venice, the city of canals; and Milan, Italy’s fashion capital."
+        },
+        {
+            "id": 4,
+            "status": "visited",
+            "name": "Lenkija",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/181018143148-krakow-2.jpg",
+            "description": "Poland, officially the Republic of Poland, is a country in Central Europe. It is divided into 16 administrative provinces called voivodeships, covering an area of 312,696 km². Poland has a population of 38 million and is the fifth-most populous member state of the European Union."
+        },
+        {
+            "id": 5,
+            "status": "not visited",
+            "name": "Japan",
+            "image": "https://www.state.gov/wp-content/uploads/2019/04/Japan-2107x1406.jpg",
+            "description": "Japan is an island country in East Asia. It is situated in the northwest Pacific Ocean and is bordered on the west by the Sea of Japan, extending from the Sea of Okhotsk in the north toward the East China Sea, Philippine Sea, and Taiwan in the south."
+        },
+        {
+            "id": 6,
+            "status": "visited",
+            "name": "Germany",
+            "image": "https://www.state.gov/wp-content/uploads/2018/11/Germany-2109x1406.jpg",
+            "description": "Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history. Berlin, its capital, is home to art and nightlife scenes, the Brandenburg Gate and many sites relating to WWII. Munich is known for its Oktoberfest and beer halls, including the 16th-century Hofbräuhaus. Frankfurt, with its skyscrapers, houses the European Central Bank."
+        },
+        {
+            "id": 7,
+            "status": "visited",
+            "name": "Turkey",
+            "image": "https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180618183832/Cappadocia-Turkey.jpg",
+            "description": "Turkey, officially the Republic of Türkiye, is a transcontinental country located mainly on the Anatolian Peninsula in Western Asia, with a small portion on the Balkan Peninsula in Southeast Europe."
+        },
+        {
+            "id": 8,
+            "status": "not visited",
+            "name": "United Kingdom",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/06/7c/c0/parliament.jpg",
+            "description": "The United Kingdom, made up of England, Scotland, Wales and Northern Ireland, is an island nation in northwestern Europe. England – birthplace of Shakespeare and The Beatles – is home to the capital, London, a globally influential centre of finance and culture. England is also site of Neolithic Stonehenge, Bath’s Roman spa and centuries-old universities at Oxford and Cambridge."
+        },
+        {
+            "status": "not visited",
+            "name": "China",
+            "image": "https://cdn.britannica.com/03/24803-004-E6F263E7/branch-Pine-peaks-Huang-Mountains-China-province.jpg",
+            "description": "It is the largest of all Asian countries and has the largest population of any country in the world.",
+            "id": "934e46c5-9568-47a8-865e-49eecfb7cbb7"
+        }
+    ]
+}

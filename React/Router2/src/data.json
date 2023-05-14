@@ -1,0 +1,64 @@
+{
+  "books": [
+    {
+      "id": 0,
+      "name": "Circe",
+      "description": "\"A bold and subversive retelling of the goddess's story,\" this #1 New York Times bestseller is \"both epic and intimate in its scope, recasting the most infamous female figure from the Odyssey as a hero in her own right\" (Alexandra Alter, The New York Times). In the house of Helios, god of the sun and mightiest of the Titans, a daughter is born. But Circe is a strange child -- not powerful, like her father, nor viciously alluring like her mother. Turning to the world of mortals for companionship, she discovers that she does possess power -- the power of witchcraft, which can transform rivals into monsters and menace the gods themselves.    Threatened, Zeus banishes her to a deserted island, where she hones her occult craft, tames wild beasts and crosses paths with many ...",
+      "price": 16.55,
+      "author": "Madeline Miller",
+      "picture": "https://static.bookofthemonth.com/covers/list/Circe_2018BOTY_200x300.jpg",
+      "rating": 2
+    },
+    {
+      "id": 2,
+      "name": "Adult Children of Alcoholics",
+      "description": "In the 1980's, Janet Woititz broke new ground in our understanding of what it is to be an Adult Child of an Alcoholic. In this updated edition of her bestseller she re-examines the movement and its inclusion of Adult Children from various dysfunctional family backgrounds who share the same characteristics. After decades of working with ACoAs she shares the recovery hints that she has found to work. Read Adult Children of Alcoholics to see where the journey began and for ideas on where to go from here.",
+      "price": 11.21,
+      "author": "Janet Geringer Woititz",
+      "picture": "https://m.media-amazon.com/images/I/71u7nksuMwL._AC_UF1000,1000_QL80_.jpg",
+      "rating": 2
+    },
+    {
+      "id": 3,
+      "name": "The Girls with No Names",
+      "description": "A beautiful tale of hope, courage, and sisterhood—inspired by the real House of Mercy and the girls confined there for daring to break the rules. Growing up in New York City in the 1910s, Luella and Effie Tildon realize that even as wealthy young women, their freedoms come with limits. But when the sisters discover a shocking secret about their father, Luella, the brazen elder sister, becomes emboldened to do as she pleases. Her rebellion comes with consequences, and one morning Luella is mysteriously gone.      Effie suspects her father has sent Luella to the House of Mercy and hatches a plan to get herself committed to save her sister. But she made a miscalculation, and with no one to believe her story, Effie's own escape seems im...",
+      "price": 13.89,
+      "author": "Serena Burdick",
+      "picture": "https://thumb.knygos-static.lt/LnXk1AcNAXCiurS7uYY7EDnJYDI=/fit-in/0x800/images/books/4279391/9780778308737.jpg",
+      "rating": 1
+    },
+    {
+      "id": 4,
+      "name": "The Boy Who Drew Auschwitz: A Powerful True Story of Hope and Survival",
+      "description": "An inspiring true story of hope and survival, this is the testimony of a boy who was imprisoned in Auschwitz, Gross-Rosen and Buchenwald and recorded his experiences through words and color drawings. In June 1943, after long years of hardship and persecution, thirteen-year-old Thomas Geve and his mother were deported to Auschwitz-Birkenau. Separated upon arrival, he was left to fend for himself in the men's camp of Auschwitz I. During 22 harsh months in three camps, Thomas experienced and witnessed the cruel and inhumane world of Nazi concentration and death camps. Nonetheless, he never gave up the will to live. Miraculously, he survived and was liberated from Buchenwald at the age of fifteen. While still in the camp and too weak to leave, Thomas f...",
+      "price": 6.85,
+      "author": "Thomas Geve",
+      "picture": "https://lt2.pigugroup.eu/colours/513/410/64/51341064/the-boy-who-drew-auschwitz-a-powerful-139e9_original.jpg",
+      "rating": 1
+    },
+    {
+      "id": 5,
+      "name": "Beneath a Scarlet Sky",
+      "description": "Based on the true story of a forgotten hero, the USA Today and #1 Amazon Charts bestseller Beneath a Scarlet Sky is the triumphant, epic tale of one young man's incredible courage and resilience during one of history's darkest hours. Pino Lella wants nothing to do with the war or the Nazis. He's a normal Italian teenager - obsessed with music, food, and girls - but his days of innocence are numbered. When his family home in Milan is destroyed by Allied bombs, Pino joins an underground railroad helping Jews escape over the Alps, and falls for Anna, a beautiful widow six years his senior. In an attempt to protect him, Pino's parents force him to enlist as a German soldier - a move they think will keep him out of combat. But after Pino is injured, he is recruited at the tender age of eight...",
+      "price": 15.19,
+      "author": "Mark Sullivan",
+      "picture": "https://thumb.knygos-static.lt/iQx7YwRwedbVQNmfuTjVqrWv-q8=/fit-in/0x800/images/books/10593569/9781503902374.jpg",
+      "rating": 1
+    },
+    {
+      "name": "Harry Potter",
+      "description": "Harry Potter spent ten long years living with Mr. and Mrs. Dursley, an aunt and uncle whose outrageous favoritism of their perfectly awful son Dudley leads to some of the most inspired dark comedy since Charlie and the Chocolate Factory.  ",
+      "price": 30.59,
+      "author": "J.K.Rowling",
+      "picture": "https://embed.cdn.pais.scholastic.com/v1/products/identifiers/isbn/9780439064866/primary/renditions/600?useMissingImage=true",
+      "rating": 4.8,
+      "id": "ee5b9f05-f9f4-4bbd-b894-10c15833b740"
+    }
+  ],
+  "movies": [
+    {
+      "id": 0,
+      "name": "haha"
+    }
+  ]
+}

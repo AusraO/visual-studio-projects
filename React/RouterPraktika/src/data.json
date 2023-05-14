@@ -1,0 +1,52 @@
+{
+    "dogs": [
+        {
+            "id": 0,
+            "name": "Australian Shepherd",
+            "description": "Belying his name, the Australian Shepherd is a breed developed in America as a sheepdog to work on the ranches. ",
+            "size": "Medium",
+            "picture": "https://kc-media-cdn-live.azureedge.net/cache/8/0/1/d/8/5/801d8541e8fd044f43a94578dd6339c4e1e9f17d.jpg",
+            "lifeSpan": "over 10 years"
+        },
+        {
+            "id": 1,
+            "name": "Alaskan Malamute",
+            "description": "The breed takes its name from the Mahlemut tribe of Eskimos who had developed and used the breed for pulling heavy loads over long distances. It is the strongest of the sled dogs. ",
+            "size": "Large",
+            "picture": "https://www.thekennelclub.org.uk/media/2906/alaskan-malamute-illustration.jpg",
+            "lifeSpan": "over 10 years"
+        },
+        {
+            "id": 2,
+            "name": "Collie",
+            "description": "The Rough Collie shares it origins with the Smooth Collie in the working sheepdogs of Scotland. The earliest Collies were smaller than today's dogs and largely black/white or tricolour or black/tan.  ",
+            "size": "Medium",
+            "picture": "https://www.thekennelclub.org.uk/media/1446/collie-rough-illustration.jpg",
+            "lifeSpan": "Over 10 years"
+        },
+        {
+            "id": 3,
+            "name": "Great Swiss Mountain Dog",
+            "description": "As the name suggests, the Great Swiss Mountain dog is the largest of the Swiss herding breeds and the heaviest in build. He shares the same origins as the Bernese and carries the typical tricolour markings but he has a short dense coat and is perhaps a little heavier in head. ",
+            "size": "Large",
+            "picture": "https://www.thekennelclub.org.uk/media/2943/great-swiss-mountain-dog-illustration.jpg",
+            "lifeSpan": "Over 10 years"
+        },
+        {
+            "id": 4,
+            "name": "Norwich Terrier",
+            "description": "his breed, recognised in 1932 had two permissible types of ear, the drop eared variety now known as the Norfolk and the prick eared variety now known as the Norwich. They are the smallest of the terrier breeds but with great substance for their size and characters to match. ",
+            "size": "Small",
+            "picture": "https://www.thekennelclub.org.uk/media/1571/norwich-terrier-illustration.jpg",
+            "lifeSpan": "Over 10 years"
+        },
+        {
+            "id": 5,
+            "name": "St. Bernard",
+            "description": "The first dogs were Alpine Mastiffs, initially used to guard property, but with the discovery of their rescue abilities their role was changed. These dogs were the ancestors of the modern St Bernard.",
+            "size": "Large",
+            "picture": "https://www.thekennelclub.org.uk/media/2977/st-bernard-illustration.jpg?",
+            "lifeSpan": "Under 10 years"
+        }
+    ]
+}

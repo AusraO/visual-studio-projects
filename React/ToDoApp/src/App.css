@@ -1,0 +1,14 @@
+.toDoElement{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .completed{
+    background-color: #7fff94;
+  }
+  .notCompleted{
+    background-color: #ed6868;
+  }

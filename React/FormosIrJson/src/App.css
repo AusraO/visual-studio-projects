@@ -1,0 +1,87 @@
+/*   Header   */
+header{
+    height: 100px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .headerLogo > img{
+    height: 100%;
+    margin-left: 20px;
+  }
+  .userInfo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+  }
+  .userInfo > img{
+    height: 60%;
+  }
+  
+  /*  Cards  */
+  #allCards > h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .cardsWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .card{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 5px;
+    position: relative;
+  }
+  
+  .card > h1{
+    text-align: center;
+    margin: 0 0 5px 0;
+    font-size: 1.3rem;
+  }
+  .card > img{
+    width: 100%;
+    object-fit: cover;
+  }
+  .card > p{
+    margin: 3px 0 0 0;
+    text-align: justify;
+  }
+  .card > span{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    cursor: pointer;
+  }
+  .card > button{
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    cursor: pointer;
+  }
+  
+  .visited{
+    background-color: #85be85;
+  }
+  .not-visited{
+    background-color: #dd9e5f;
+  }
+
+  #newCountry >h1{
+    text-align: center;
+    font-size: 3rem;
+  }
+  #newCountry > form{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

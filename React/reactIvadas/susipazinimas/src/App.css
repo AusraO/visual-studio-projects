@@ -1,0 +1,96 @@
+.navigation {
+    height: 50px;
+    background-color: rgb(22, 34, 102);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding-right: 40px;
+}
+
+.logotipe {
+    height: 80px;
+}
+
+header {
+    width: 90%;
+    margin-left: 50px;
+}
+
+.logo {
+    background-color: white;
+
+}
+
+.hero {
+    width: 100%;
+}
+
+.allCards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.about,
+.company,
+.services {
+    background-color: white;
+    padding-left: 10px;
+}
+
+
+.contNav {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+ 
+}
+
+.navigationBot {
+
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+   
+
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#root {
+    background-color: bisque;
+}
+
+.content {
+    width: 100%;
+    background-color: white;
+    padding-left: 15px;
+}
+main {
+    width: 90%;
+margin-left: 50px;
+}

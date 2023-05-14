@@ -1,0 +1,65 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "userName": "Ponas Adminas",
+        "role": "admin",
+        "isBlocked": false,
+        "password": "$2a$08$etrQAskNoHykFxHvIYLwFeF/QQ3plu.ABFYrYMpX7sk2ya0myvMMq",
+        "avatarURL": "https://www.clipartmax.com/png/middle/319-3191274_male-avatar-admin-profile.png"
+      },
+      {
+        "id": 2,
+        "userName": "Plačiakelnis",
+        "role": "user",
+        "isBlocked": false,
+        "password": "$2a$08$Bng.qGCpgT5qkTgEGZ4re.k7JFGGheW5btVee.qG7wlvbY.rOve/y",
+        "avatarURL": "https://static.wikia.nocookie.net/cartoons/images/e/ed/Profile_-_SpongeBob_SquarePants.png"
+      },
+      {
+        "id": 3,
+        "userName": "Žvaigždė",
+        "role": "user",
+        "isBlocked": false,
+        "password": "$2a$08$Zx9stfMvTG09chRO8/huyek4507CWBQY.sRRECJNkhtjZ.2XpcqPy",
+        "avatarURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Patrick_Star.svg/1200px-Patrick_Star.svg.png"
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "userId": 2,
+        "title": "Plačiakelnio pirmasis post'as..."
+      },
+      {
+        "id": 3,
+        "userId": 3,
+        "title": "Taip, čia Patrikas."
+      },
+      {
+        "id": 4,
+        "userId": 3,
+        "title": "No, this is NOT MY WALLET!!!"
+      },
+      {
+        "id": "a8814ab4-1e24-4857-887a-63dc1004b52e",
+        "userId": 2,
+        "title": "Today I made billions Krabby Patties?"
+      },
+      {
+        "id": "d14929b9-7132-4c9a-b1e0-c1f9f2e1e6c1",
+        "userId": 2,
+        "title": "Got stung by Jellyfish :|"
+      },
+      {
+        "id": "375b78f7-9893-477a-b8d1-c60c73f8e88c",
+        "userId": 3,
+        "title": "Is mayonnaise an instrument?"
+      },
+      {
+        "id": "fb0892bb-8e2f-4454-a223-6401071e9610",
+        "userId": 1,
+        "title": "I want to order.... Krabby Patty?"
+      }
+    ]
+  }

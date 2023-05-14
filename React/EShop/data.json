@@ -1,0 +1,90 @@
+{
+  "StoreItems": [
+    {
+      "id": 0,
+      "img": "https://scoopempire.com/wp-content/uploads/2015/07/20-cool-and-crazy-things-made-from-gold-8.jpg",
+      "name": "Golden Slinky",
+      "price": 1000.99
+    },
+    {
+      "id": 1,
+      "img": "https://scoopempire.com/wp-content/uploads/2015/07/20-cool-and-crazy-things-made-from-gold-7.jpg",
+      "name": "Golden vacuum cleaner",
+      "price": 111.19
+    },
+    {
+      "id": 2,
+      "img": "https://scoopempire.com/wp-content/uploads/2015/07/20-cool-and-crazy-things-made-from-gold-11.jpg",
+      "name": "Golden pencil",
+      "price": 700.95
+    },
+    {
+      "id": 3,
+      "img": "https://scoopempire.com/wp-content/uploads/2015/07/101039516-Golden-Lambo.jpg",
+      "name": "Golden Lambo",
+      "price": 700.15
+    },
+    {
+      "id": 4,
+      "img": "https://scoopempire.com/wp-content/uploads/2015/07/20-cool-and-crazy-things-made-from-gold-15.jpg",
+      "name": "Golden BBQ",
+      "price": 1800.55
+    },
+    {
+      "id": 5,
+      "img": "https://images.augustman.com/wp-content/uploads/sites/3/2021/08/05101507/000_1lq2oh-1-841x560.jpeg?tr=w-1000",
+      "name": "Golden dress",
+      "price": 8000.45
+    },
+    {
+      "id": 6,
+      "img": "https://4.bp.blogspot.com/-NItdazFkP70/Urvfn07vqiI/AAAAAAAADEo/O_YVyt4Rmc0/s1600/Gold-Staples2.jpg",
+      "name": "Golden paper clips",
+      "price": 170.99
+    },
+    {
+      "id": 7,
+      "img": "https://www.buzzmixer.com/assets/feed_images/1534856508_405.jpg",
+      "name": "Golden bathroom",
+      "price": 1000.95
+    },
+    {
+      "id": 8,
+      "img": "https://www.buzzmixer.com/assets/feed_images/1534856536_405.jpg",
+      "name": "Golden pills",
+      "price": 15.22
+    },
+    {
+      "id": 9,
+      "img": "https://www.vintagecashcow.co.uk/storage/app/uploads/public/307/876/bf6/1068_768_0_0_crop/gold-toilet-roll.jpg",
+      "name": "Toilet paper roll",
+      "price": 1100.2
+    }
+  ],
+  "cart": [
+    {
+      "id": 4,
+      "quantity": 2
+    },
+    {
+      "id": 5,
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "quantity": 1
+    },
+    {
+      "id": 1,
+      "quantity": 4
+    },
+    {
+      "id": 7,
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "quantity": 1
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "prekes": [
+    {
+      "id": 0,
+      "img": "https://oliseta.lt/wp-content/uploads/2020/04/rose_orange_kletterrose_aloha_kordes_01.jpg",
+      "name": "Rožė Aloha-Kordes Rose Aloha",
+      "description": "Climbing Max - tai Kordes vijoklių kolekcija, kurioje parinktos geriausios šiai dienai veislės, dauguma jų siekia 200 cm ir daugiau. Jų kvapą galite uosti ne tik pritūpus, bet ir stovin",
+      "howMuch": 15,
+      "kaina": 10.99,
+      "quantity": 0
+    },
+    {
+      "id": 1,
+      "img": "https://oliseta.lt/wp-content/uploads/2020/04/rose_rot_kletterrose_Florentina_Kordes_2.jpg",
+      "name": "Rožė Florentina",
+      "description": "Turi lengvą vaisių-gėlių aromatą. Žydėjimas yra labai gausus, tęsiasi nuo birželio iki rugsėjo. Lietaus krituliams atspari, geras žiemojimas ir ilgai laiko žiedą.",
+      "howMuch": 10,
+      "kaina": 11.19,
+      "quantity": 0
+    },
+    {
+      "id": 2,
+      "img": "https://oliseta.lt/wp-content/uploads/2020/04/rose_orange_beetrose_gebrueder-grimm-joli-tambour_kordes_01.jpg",
+      "name": "Rožė Orange Beetrose Gebrueder Grimm Joli Tambour Kordes",
+      "description": "Ši rožė su ryškiomis spalvomis ir aukščiausios klasės atsparumu ligoms. Žiedas oranžiniai raudonas su geltona reverso spalva. Lapija yra tamsiai žalia, labai blizga. Krūmas yra labai energingas, išsišakojęs, iki 90 cm",
+      "howMuch": 7,
+      "kaina": 9.95,
+      "quantity": 0
+    },
+    {
+      "id": 3,
+      "img": "https://oliseta.lt/wp-content/uploads/2020/04/Kiss_me_Kate_5-scaled.jpg",
+      "name": "Rožė Kiss Me Kate",
+      "description": "Didelės, romantiškos formos ir patvarumo gėlės gali būti pjaustomos vazai. Itin kvapnūs, jie siūlo citrusinių vaisių, obuolių, senovinių rožių ir aviečių natas.",
+      "howMuch": 9,
+      "kaina": 7.15,
+      "quantity": 0
+    },
+    {
+      "id": 4,
+      "img": "https://oliseta.lt/wp-content/uploads/2020/04/rose_rosa_bodendecker_bluehwunder08_kordes_01.jpg",
+      "name": "Rožė Blühwunder 08",
+      "description": "Krūmas tvirtas, šakotas, vidutinio dydžio. Žydi gausiai, ilgai, visą šiltąjį periodą iki rudens, su pakartojimais.",
+      "howMuch": 8,
+      "kaina": 18.55,
+      "quantity": 0
+    },
+    {
+      "id": 5,
+      "img": "https://oliseta.lt/wp-content/uploads/2021/04/Alexandra%C2%AE-Princesse-de-Luxembourg-2.jpg",
+      "name": "Rožė Alexandra - Princesse de Luxembourg",
+      "description": "Aukštis:  150cm, Plotis: 80 cm, Žiedas: 10cm., Kvapas: 3/5",
+      "howMuch": 5,
+      "kaina": 8.45,
+      "quantity": 0
+    },
+    {
+      "id": 6,
+      "img": "https://oliseta.lt/wp-content/uploads/2021/06/Crimson-Siluetta.jpg",
+      "name": "Rožė Crimson Siluetta",
+      "description": "tai kvepianti ypatingo grožio, tamsios burokėlių spalvos daugiažiedė „senovinė“, augalas, rožių krūmas. ",
+      "howMuch": 18,
+      "kaina": 17.99,
+      "quantity": 0
+    },
+    {
+      "id": 7,
+      "img": "https://oliseta.lt/wp-content/uploads/2021/04/Schneewittchen-1.jpg",
+      "name": "Rožė Schneewittchen",
+      "description": "ai viena populiariausių pasaulyje rožių (ne tik tarp baltų, bet ir iš visų), ir būtent ji yra Alytaus miesto simbolis, kur Pasaulio alytiškių bendruomenės iniciatyva su mūsų medelyno pagalba pasodinti šimtai šių krūmų.",
+      "howMuch": 25,
+      "kaina": 10.95,
+      "quantity": 0
+    },
+    {
+      "id": 8,
+      "img": "https://oliseta.lt/wp-content/uploads/2020/04/rose_lila_beetrose_novalis_kordes_01.jpg",
+      "name": "Rožė Novalis",
+      "description": "Tai gana romantiška rožė ,iki 80 cm aukščio.Ši rožė savo spalva išsiskiria iš kitų,todėl į ją visada atkreipsite dėmesį.Dideli, tankus žiedlapiai , žydi mažose grupėse , žiedų forma- lizdas. Žydi bangomis sezono metu.",
+      "howMuch": 3,
+      "kaina": 15.22,
+      "quantity": 0
+    },
+    {
+      "id": 9,
+      "img": "https://oliseta.lt/wp-content/uploads/2020/04/rose_bunt_beetrose_rose-de-tolbiac_kordes_04.jpg",
+      "name": "Rožė Rose de Tolbiac",
+      "description": "Nostalgiško, išskirtinio grožio, spirale susisukę žiedai. Žiedai ypač tankūs, su labai daug žiedlapių, spiraliniai, plačiai atsivėrę , iki 10 cm skersmens. Pasižymi gausiu žydėjimu. Kvepia ne stipriai. Spalva: švelniai pastelinė rožinė su abrikoso atspalviu.",
+      "howMuch": 6,
+      "kaina": 12.68,
+      "quantity": 0
+    }
+  ],
+  "krepselis": [
+    {
+      "id": 1,
+      "kiekis": 1
+    },
+    {
+      "id": 2,
+      "kiekis": 2
+    }
+  ]
+}

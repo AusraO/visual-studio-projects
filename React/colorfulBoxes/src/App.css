@@ -1,0 +1,29 @@
+.defaultBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.boxInside{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(79, 95, 22);
+    padding: 10px;
+}
+
+.boxAfterFirstChange{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 10px;
+}

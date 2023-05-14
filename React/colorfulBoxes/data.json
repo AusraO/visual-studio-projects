@@ -1,0 +1,48 @@
+{
+  "boxes": [
+    {
+      "id": 0,
+      "name": "1",
+      "className":"boxInside",
+      "colorId": 1
+    },
+    {
+      "id": 1,
+      "name": "2",
+      "className":"boxInside",
+      "colorId": 1
+    },
+    {
+      "id": 2,
+      "name": "3",
+      "className":"boxInside",
+      "colorId": 1
+    },
+    {
+      "id": 3,
+      "name": "4",
+      "className":"boxInside",
+      "colorId": 1
+    },
+    {
+      "id": 4,
+      "name": "5",
+      "className":"boxInside",
+      "colorId": 1
+    }
+  ],
+  "colors": [
+    {
+      "id": 0,
+      "className": "boxInside"
+    },
+    {
+      "id": 1,
+      "className": "boxAfterFirstChange"
+    },
+    {
+      "id": 2,
+      "className": "boxInside"
+    }
+  ]
+}
