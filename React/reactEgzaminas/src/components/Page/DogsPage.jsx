@@ -27,7 +27,7 @@ const DogsPage = () => {
 
     return (
         <StyledDogsMain>
-            <h1> Your Favourite Dog Breeds in one place</h1>
+            <h1> Our Favourite Dog Breeds in one place</h1>
          
 
             <StyledDogsDiv>
