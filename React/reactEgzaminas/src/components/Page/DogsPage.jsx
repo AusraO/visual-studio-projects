@@ -2,6 +2,8 @@ import { useContext } from "react";
 import styled from "styled-components";
 import DogsContext from "../../contexts/DogsContext";
 import DogCard from "../UI/Molecules/DogCard";
+import { useEffect } from "react";
+import { useState } from "react";
 
 
 
@@ -24,23 +26,33 @@ const StyledDogsDiv = styled.div`
 const DogsPage = () => {
 
     const { dogs } = useContext(DogsContext)
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setIsLoading(false);
+        }, 500);
+    }, []);
 
     return (
         <StyledDogsMain>
             <h1> Our Favourite Dog Breeds in one place</h1>
-         
+
+            {
+                isLoading ? (<p>Loading...</p>) : (
 
             <StyledDogsDiv>
-                {
+                {dogs.length === 0 ? (<p>No dogs available..</p>) : (
+
                     dogs.map(dog =>
                         <DogCard
                             key={dog.id}
                             data={dog}
                         />
                     )
-                }
+                ) }
             </StyledDogsDiv>
-
+)}
         </StyledDogsMain>
     );
 }
