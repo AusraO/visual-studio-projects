@@ -5,6 +5,32 @@ import { useState } from 'react'
 import NewUsersContext from '../../contexts/NewUserContext'
 import { useNavigate } from 'react-router-dom'
 import { v4 as generatedId } from 'uuid'
+import styled from 'styled-components'
+
+const StyledMain = styled.main`
+background-color: #F3CC9B;
+text-align: center;
+padding-bottom: 20px;
+>h1{
+    margin-top: 0px;
+    padding-top: 10px;
+}
+>form{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+`
+const SubmitButton = styled.input`
+  background-color: #351F10;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+ 
+`
 
 const Register = () => {
 
@@ -96,7 +122,7 @@ const Register = () => {
         onSubmit: (values) => { console.log(values) }
     })
     return (
-        <main>
+        <StyledMain>
             <h1>Create New Account</h1>
             <form onSubmit={handleSubmit}>
 
@@ -176,9 +202,9 @@ const Register = () => {
                         >{formik.errors.passwordConfirm}</span>
                     }
                 </div>
-                <input type='submit' value='Register' />
+                <SubmitButton type='submit' value='Register' />
             </form>
-        </main>
+        </StyledMain>
     );
 }
 

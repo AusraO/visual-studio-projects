@@ -41,6 +41,13 @@
       "description": "The first dogs were Alpine Mastiffs, initially used to guard property, but with the discovery of their rescue abilities their role was changed. These dogs were the ancestors of the modern St Bernard.",
       "size": "Large",
       "picture": "https://www.thekennelclub.org.uk/media/2977/st-bernard-illustration.jpg?"
+    },
+    {
+      "name": "Pointer",
+      "picture": "https://www.thekennelclub.org.uk/media/1175/pointer-illustration-resize.jpg?mode=pad&width=1000&rnd=132140429390000000",
+      "size": "medium",
+      "description": " The Pointer is an athlete, a series of flowing curves, with a slightly concave muzzle to lift his nose and aid the scenting powers. His hunting style is with head held high, lashing his bee-sting tail. ",
+      "id": "5194b282-534f-44e4-96fe-120da93ee210"
     }
   ],
   "users": [

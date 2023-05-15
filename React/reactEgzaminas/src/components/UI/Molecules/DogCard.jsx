@@ -28,7 +28,7 @@ const DogCard = ({ data }) => {
             <img src={data.picture} alt={data.name} />
             <div>
                 <h2>{data.name}</h2>
-                <p>{data.size}</p>
+                <p>Size: {data.size}</p>
                 {/* <button>
                     <Link to={`/dogs/${data.id}`} >More about this breed</Link>
                 </button> */}

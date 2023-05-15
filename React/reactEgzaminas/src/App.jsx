@@ -8,6 +8,8 @@ import Header from './components/UI/Header';
 import UsersContext from './contexts/UsersContext';
 import Login from './components/Page/Login';
 import Register from './components/Page/Register';
+import AddNewDog from './components/Page/AddNewDog';
+import Footer from './components/UI/Footer';
 
 
 
@@ -21,13 +23,19 @@ const App = () => {
       <Header />
 
       <Routes>
-      
-          <Route index element={<Home />} />
 
-          <Route path="/dogs" element={
+        <Route index element={<Home />} />
+
+        <Route path="/dogs" element={
           currentUser ?
-          <DogsPage /> :
-          <Navigate to="/login" />
+            <DogsPage /> :
+            <Navigate to="/login" />
+        } />
+
+        <Route path="/addDog" element={
+          currentUser ?
+            <AddNewDog /> :
+            <Navigate to="/login" />
         } />
 
         <Route path="/register" element={<Register />} />
@@ -36,7 +44,7 @@ const App = () => {
 
         <Route path='*' element={<h1>Aww dogs! You are lost! </h1>} />
       </Routes>
-
+      <Footer />
     </>
   );
 }

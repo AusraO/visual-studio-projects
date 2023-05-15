@@ -1,23 +1,46 @@
 import styled from "styled-components";
 import { Link, useNavigate } from 'react-router-dom'
 import { useContext } from "react";
-
 import UsersContext from "../../contexts/UsersContext";
+
+
 const HeaderStyled = styled.header`
     height: 90px;
     width:100%;
     display: flex;
     justify-content: space-around;
     gap:20px; 
-    background-color: beige;
+    background-color: #351f10;
     align-items: center;
-    color:black;
+    color:white;
+    >div{
+      display: flex;
+      gap: 2rem;
+      justify-content: flex-end;
+      align-items: center;
+    
+   >button{
+      width: 90px;
+      height: 40px;
+      background-color: #F3CC9B;
+      border: none;
+      border-radius: 3px;
+      font-size: 16px;
+    }
+  }
     a>img{
     
         height: 80px;
         width: auto;
-    
 }
+a>button{
+      width: 90px;
+      height: 40px;
+      background-color: #F3CC9B;
+      border: none;
+      border-radius: 3px;
+      font-size: 16px;
+    }
 `
 
 
@@ -48,20 +71,21 @@ const Header = () => {
             <>
               {
                 currentUser &&
-                <Link to="/newDog"><button>Add new dog</button></Link>
+                <Link to="/addDog"><button>Add new dog</button></Link>
               }
+              <div>
+                <img style={{ width: "70px", height: "auto" }} src={currentUser.avatarURL} alt="user avatar" />
+                <p>{currentUser.userName}</p>
 
-              <img style={{ width: "70px", height: "auto" }} src={currentUser.avatarURL} alt="user avatar" />
-              <p>{currentUser.userName}</p>
-
-              <button
-                onClick={() => {
-                  setCurrentUser(null);
-                  navigate('/');
-                }}
-              >
-                Logout
-              </button>
+                <button
+                  onClick={() => {
+                    setCurrentUser(null);
+                    navigate('/');
+                  }}
+                >
+                  Logout
+                </button>
+              </div>
             </>
         }
 

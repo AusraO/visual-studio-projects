@@ -5,16 +5,33 @@ import UsersContext from "../../contexts/UsersContext";
 import { compareSync } from 'bcryptjs';
 
 const StyledMain = styled.main`
+background-color: #F3CC9B;
+text-align: center;
+>h1{
+  margin-top: 0;
+  padding: 10px;
+}
   > form{
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 50%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
-  }
-`;
+    gap: 1rem;
 
+  }
+`
+const SubmitButton = styled.input`
+  background-color: #351F10;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+ 
+`
 const Login = () => {
   const [formInputs, setFormInputs] = useState({
     userName: '',
@@ -35,7 +52,6 @@ const Login = () => {
 
   const formSubmit = e => {
     e.preventDefault();
-    // const loggedInUser = users.find(user => user.userName === formInputs.userName && compareSync(formInputs.password, user.password));
     const loggedInUser = users.find(user => user.userName === formInputs.userName && user.password === formInputs.password);
     if(loggedInUser){
       setCurrentUser(loggedInUser);
@@ -47,6 +63,7 @@ const Login = () => {
 
   return (
     <StyledMain>
+      <h1>Log in to see all the favourite dog breeds!</h1>
       <form onSubmit={(e) => {formSubmit(e)}}>
         <div>
           <label htmlFor="userName">User Name:</label>
@@ -66,7 +83,7 @@ const Login = () => {
             onChange={(e)=>{inputHandler(e)}}
           />
         </div>
-        <input type="submit" value="Log In" />
+        <SubmitButton type="submit" value="Log In" />
       </form>
       {
         failedLogIn &&
