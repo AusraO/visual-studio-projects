@@ -6,6 +6,7 @@ import NewUsersContext from '../../contexts/NewUserContext'
 import { useNavigate } from 'react-router-dom'
 import { v4 as generatedId } from 'uuid'
 import styled from 'styled-components'
+import UsersContext from '../../contexts/UsersContext'
 
 const StyledMain = styled.main`
 background-color: #F3CC9B;
@@ -33,7 +34,7 @@ const SubmitButton = styled.input`
 `
 
 const Register = () => {
-
+    const { users } = useContext(UsersContext);
     const { NewUsersActionTypes, setNewUsers } = useContext(NewUsersContext);
     const navigate = useNavigate()
     const [formInputs, setFormInputs] = useState({
@@ -101,6 +102,12 @@ const Register = () => {
             .url('Please write avatar url corectly'),
         email: Yup.string()
             .email('Please write your real email adress')
+            .test('unique', 'This email is already taken', function (value) {
+                return new Promise(resolve => {
+                    const isUnique = !users.find(user => user.email === value);
+                    resolve(isUnique);
+                });
+            })
             .required('You must fill this field'),
         password: Yup.string()
             .matches(

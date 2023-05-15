@@ -11,11 +11,6 @@ import Register from './components/Page/Register';
 import AddNewDog from './components/Page/AddNewDog';
 import Footer from './components/UI/Footer';
 
-
-
-
-
-
 const App = () => {
   const { currentUser } = useContext(UsersContext);
   return (
