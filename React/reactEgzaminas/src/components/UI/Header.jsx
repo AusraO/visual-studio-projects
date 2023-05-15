@@ -51,7 +51,6 @@ const Header = () => {
   return (
     <>
       <HeaderStyled>
-
         {
           !currentUser &&
           <Link to="/login"><img src="https://img.freepik.com/free-vector/cute-dog-logo-template_1051-3348.jpg?w=2000" alt="logo" /></Link>
@@ -60,8 +59,6 @@ const Header = () => {
           currentUser &&
           <Link to="/dogs"><img src="https://img.freepik.com/free-vector/cute-dog-logo-template_1051-3348.jpg?w=2000" alt="logo" /></Link>
         }
-
-
         {
           !currentUser ?
             <>

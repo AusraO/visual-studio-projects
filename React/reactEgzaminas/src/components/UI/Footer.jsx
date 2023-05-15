@@ -26,18 +26,13 @@ color: white;
     justify-content: flex-end;
     padding-top: 10px;
     margin: 0;
-    
 }
 >nav ul li{
     padding-right: 40px;
-   
 }
 `
 
 const Footer = () => {
-
-
-
     return (
         <>
             <StyledDogFooter>

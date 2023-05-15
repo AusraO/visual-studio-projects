@@ -6,7 +6,6 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 
-
 const StyledDogsMain = styled.main`
     background-color: #f3cc9b;
     text-align: center;

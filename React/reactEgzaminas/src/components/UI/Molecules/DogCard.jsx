@@ -24,13 +24,10 @@ const StyledDogCardDiv = styled.div`
 `
 
 const DogCard = ({ data }) => {
-
     const [modal, setModal] = useState(false)
-
     const toggleModal = () => {
         setModal(!modal)
     }
-    
     if (modal) {
         document.body.classList.add('active-modal')
     } else {

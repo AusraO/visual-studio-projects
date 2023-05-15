@@ -32,7 +32,6 @@ const SubmitButton = styled.input`
   font-size: 16px;
  
 `
-
 const Register = () => {
     const { users } = useContext(UsersContext);
     const { NewUsersActionTypes, setNewUsers } = useContext(NewUsersContext);
@@ -40,7 +39,7 @@ const Register = () => {
     const [formInputs, setFormInputs] = useState({
         userName: '',
         avatarURL: '',
-        email:'',
+        email: '',
         password: ''
 
     });
@@ -69,7 +68,7 @@ const Register = () => {
             type: NewUsersActionTypes.add,
             data: newUser
         })
-     
+
         navigate('/dogs')
     }
 
@@ -88,7 +87,7 @@ const Register = () => {
 
         userName: '',
         avatarURL: '',
-        email:'',
+        email: '',
         password: ''
     }
 

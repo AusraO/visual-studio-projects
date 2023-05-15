@@ -18,27 +18,22 @@ const App = () => {
       <Header />
 
       <Routes>
-
         <Route index element={<Home />} />
-
         <Route path="/dogs" element={
           currentUser ?
             <DogsPage /> :
             <Navigate to="/login" />
         } />
-
         <Route path="/addDog" element={
           currentUser ?
             <AddNewDog /> :
             <Navigate to="/login" />
         } />
-
         <Route path="/register" element={<Register />} />
         <Route path='/login' element={<Login />} />
-
-
         <Route path='*' element={<h1>Aww dogs! You are lost! </h1>} />
       </Routes>
+      
       <Footer />
     </>
   );
