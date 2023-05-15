@@ -1,6 +1,6 @@
 import styled from "styled-components";
-// import { Link } from "react-router-dom";
-
+import { useState } from "react";
+import "./DogCardModal.css"
 const StyledDogCardDiv = styled.div`
     width: 300px;
     display: flex;
@@ -19,21 +19,49 @@ const StyledDogCardDiv = styled.div`
         align-items: center;
         background-color: #5a392a;
         border: none;
+        color: white;
     }
 `
 
 const DogCard = ({ data }) => {
+
+    const [modal, setModal] = useState(false)
+
+    const toggleModal = () => {
+        setModal(!modal)
+    }
+    
+    if (modal) {
+        document.body.classList.add('active-modal')
+    } else {
+        document.body.classList.remove('active-modal')
+    }
+    
+
     return (
+        <>
         <StyledDogCardDiv>
             <img src={data.picture} alt={data.name} />
             <div>
                 <h2>{data.name}</h2>
                 <p>Size: {data.size}</p>
-                {/* <button>
-                    <Link to={`/dogs/${data.id}`} >More about this breed</Link>
-                </button> */}
+                <button onClick={toggleModal}>More about this breed </button>
             </div>
         </StyledDogCardDiv>
+
+         {modal && (<div className="modal">
+                <div className="overlay" onClick={toggleModal}></div>
+                <div className="modal-content">
+                    <h1>{data.name}</h1>
+                    <img style={{ width: "100px" }} src={data.picture} alt={`${data.name}`} />
+                    <p>Dog size:{data.size}</p>
+                    <p>Description: {data.description}</p>
+
+                    <button className="close-modal" onClick={toggleModal}>X</button>
+                </div>
+            </div>
+            )}
+            </>
     );
 }
 

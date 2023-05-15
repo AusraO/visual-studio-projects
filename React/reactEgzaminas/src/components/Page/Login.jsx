@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import UsersContext from "../../contexts/UsersContext";
-import { compareSync } from 'bcryptjs';
+
 
 const StyledMain = styled.main`
 background-color: #F3CC9B;
