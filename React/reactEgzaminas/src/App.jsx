@@ -7,7 +7,7 @@ import DogsPage from './components/Page/DogsPage';
 import Header from './components/UI/Header';
 import UsersContext from './contexts/UsersContext';
 import Login from './components/Page/Login';
-
+import Register from './components/Page/Register';
 
 
 
@@ -30,13 +30,11 @@ const App = () => {
           <Navigate to="/login" />
         } />
 
-        {/* <Route path='/dogs' element={<DogsPage />} /> */}
-
-        {/* <Route path="/register" element={<Register />} /> */}
+        <Route path="/register" element={<Register />} />
         <Route path='/login' element={<Login />} />
 
 
-        <Route path='*' element={<h1>All the dogs think you are lost! </h1>} />
+        <Route path='*' element={<h1>Aww dogs! You are lost! </h1>} />
       </Routes>
 
     </>

@@ -2,7 +2,7 @@ import * as Yup from 'yup'
 import { useFormik } from 'formik'
 import { useContext } from 'react'
 import { useState } from 'react'
-import NewUsersContext from '../../contexts/NewUsersContext'
+import NewUsersContext from '../../contexts/NewUserContext'
 import { useNavigate } from 'react-router-dom'
 import { v4 as generatedId } from 'uuid'
 
@@ -62,8 +62,9 @@ const Register = () => {
 
         userName: '',
         avatarURL: '',
-        password: '',
-        passwordConfirm: ''
+        email:'',
+        password: ''
+    
 
     }
 

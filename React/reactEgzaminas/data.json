@@ -1,53 +1,47 @@
 {
   "dogs": [
-      {
-          "id": 0,
-          "name": "Australian Shepherd",
-          "description": "Belying his name, the Australian Shepherd is a breed developed in America as a sheepdog to work on the ranches. ",
-          "size": "Medium",
-          "picture": "https://kc-media-cdn-live.azureedge.net/cache/8/0/1/d/8/5/801d8541e8fd044f43a94578dd6339c4e1e9f17d.jpg"
-          
-      },
-      {
-          "id": 1,
-          "name": "Alaskan Malamute",
-          "description": "The breed takes its name from the Mahlemut tribe of Eskimos who had developed and used the breed for pulling heavy loads over long distances. It is the strongest of the sled dogs. ",
-          "size": "Large",
-          "picture": "https://www.thekennelclub.org.uk/media/2906/alaskan-malamute-illustration.jpg"
-          
-      },
-      {
-          "id": 2,
-          "name": "Collie",
-          "description": "The Rough Collie shares it origins with the Smooth Collie in the working sheepdogs of Scotland. The earliest Collies were smaller than today's dogs and largely black/white or tricolour or black/tan.  ",
-          "size": "Medium",
-          "picture": "https://www.thekennelclub.org.uk/media/1446/collie-rough-illustration.jpg"
-          
-      },
-      {
-          "id": 3,
-          "name": "Great Swiss Mountain Dog",
-          "description": "As the name suggests, the Great Swiss Mountain dog is the largest of the Swiss herding breeds and the heaviest in build. He shares the same origins as the Bernese and carries the typical tricolour markings but he has a short dense coat and is perhaps a little heavier in head. ",
-          "size": "Large",
-          "picture": "https://www.thekennelclub.org.uk/media/2943/great-swiss-mountain-dog-illustration.jpg"
-          
-      },
-      {
-          "id": 4,
-          "name": "Norwich Terrier",
-          "description": "his breed, recognised in 1932 had two permissible types of ear, the drop eared variety now known as the Norfolk and the prick eared variety now known as the Norwich. They are the smallest of the terrier breeds but with great substance for their size and characters to match. ",
-          "size": "Small",
-          "picture": "https://www.thekennelclub.org.uk/media/1571/norwich-terrier-illustration.jpg"
-         
-      },
-      {
-          "id": 5,
-          "name": "St. Bernard",
-          "description": "The first dogs were Alpine Mastiffs, initially used to guard property, but with the discovery of their rescue abilities their role was changed. These dogs were the ancestors of the modern St Bernard.",
-          "size": "Large",
-          "picture": "https://www.thekennelclub.org.uk/media/2977/st-bernard-illustration.jpg?"
-          
-      }
+    {
+      "id": 0,
+      "name": "Australian Shepherd",
+      "description": "Belying his name, the Australian Shepherd is a breed developed in America as a sheepdog to work on the ranches. ",
+      "size": "Medium",
+      "picture": "https://kc-media-cdn-live.azureedge.net/cache/8/0/1/d/8/5/801d8541e8fd044f43a94578dd6339c4e1e9f17d.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Alaskan Malamute",
+      "description": "The breed takes its name from the Mahlemut tribe of Eskimos who had developed and used the breed for pulling heavy loads over long distances. It is the strongest of the sled dogs. ",
+      "size": "Large",
+      "picture": "https://www.thekennelclub.org.uk/media/2906/alaskan-malamute-illustration.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Collie",
+      "description": "The Rough Collie shares it origins with the Smooth Collie in the working sheepdogs of Scotland. The earliest Collies were smaller than today's dogs and largely black/white or tricolour or black/tan.  ",
+      "size": "Medium",
+      "picture": "https://www.thekennelclub.org.uk/media/1446/collie-rough-illustration.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Great Swiss Mountain Dog",
+      "description": "As the name suggests, the Great Swiss Mountain dog is the largest of the Swiss herding breeds and the heaviest in build. He shares the same origins as the Bernese and carries the typical tricolour markings but he has a short dense coat and is perhaps a little heavier in head. ",
+      "size": "Large",
+      "picture": "https://www.thekennelclub.org.uk/media/2943/great-swiss-mountain-dog-illustration.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Norwich Terrier",
+      "description": "his breed, recognised in 1932 had two permissible types of ear, the drop eared variety now known as the Norfolk and the prick eared variety now known as the Norwich. They are the smallest of the terrier breeds but with great substance for their size and characters to match. ",
+      "size": "Small",
+      "picture": "https://www.thekennelclub.org.uk/media/1571/norwich-terrier-illustration.jpg"
+    },
+    {
+      "id": 5,
+      "name": "St. Bernard",
+      "description": "The first dogs were Alpine Mastiffs, initially used to guard property, but with the discovery of their rescue abilities their role was changed. These dogs were the ancestors of the modern St Bernard.",
+      "size": "Large",
+      "picture": "https://www.thekennelclub.org.uk/media/2977/st-bernard-illustration.jpg?"
+    }
   ],
   "users": [
     {
@@ -57,7 +51,6 @@
       "password": "admin",
       "avatarURL": "https://www.shareicon.net/data/512x512/2015/09/18/103160_man_512x512.png",
       "isBlocked": false
-     
     },
     {
       "id": 2,
@@ -66,7 +59,30 @@
       "password": "user",
       "avatarURL": "https://cdn1.iconfinder.com/data/icons/user-pictures/100/female1-512.png",
       "isBlocked": false
-      
+    },
+    {
+      "userName": "ausra",
+      "avatarURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeIUUwf1GuV6YhA08a9haUQBOBRqJinQCJxA&usqp=CAU",
+      "email": "",
+      "password": "!1Aaaaaa",
+      "passwordConfirm": "!1Aaaaaa",
+      "id": "8e0df1d1-099e-423a-8054-0be86429493f"
+    },
+    {
+      "userName": "ausra",
+      "avatarURL": "https://www.kindpng.com/picc/m/163-1636340_user-avatar-icon-avatar-transparent-user-icon-png.png",
+      "email": "",
+      "password": "!1Aaaaaa",
+      "passwordConfirm": "!1Aaaaaa",
+      "id": "70a985a0-648b-4479-90aa-864d83419e12"
+    },
+    {
+      "userName": "ausra",
+      "avatarURL": "https://www.kindpng.com/picc/m/163-1636340_user-avatar-icon-avatar-transparent-user-icon-png.png",
+      "email": "",
+      "password": "!1Aaaaaaa",
+      "passwordConfirm": "!1Aaaaaaa",
+      "id": "55a9d816-1c09-45ce-8be2-afbf017242f0"
     }
   ]
 }
