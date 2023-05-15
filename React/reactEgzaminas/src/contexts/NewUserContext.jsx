@@ -26,7 +26,6 @@ const NewUsersProvider = ({ children }) => {
 
     const [newUsers, setNewUsers] = useReducer(reducer, []);
 
-
     return (
         <NewUsersContext.Provider
             value={{
