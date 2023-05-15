@@ -20,7 +20,14 @@ padding-bottom: 20px;
     align-items: center;
 }
 `
-
+const StyledInput=styled.input`
+      background-color: #351F10;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+`
 
 const AddNewDog = () => {
     const { DogsActionTypes, setDogs } = useContext(DogsContext);
@@ -107,7 +114,7 @@ const AddNewDog = () => {
                         onChange={(e) => inputHandler(e)}
                     ></textarea>
                 </div>
-                <input type='submit' value='Add' />
+                <StyledInput type='submit' value='Add' />
             </form>
         </StyledMain>
 
