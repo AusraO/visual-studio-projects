@@ -40,25 +40,25 @@ const Header = () => {
                 <>
                  {
               currentUser.role === "admin" &&
-             <> <Link to="/manageUsers">Manage Users</Link>
-            <Link to="/newMovie"><button>Add new movie</button></Link>
+             <> 
+            <Link to="/newDog"><button>Add new dog</button></Link>
               </>
             }
            
-              <img style={{width:"50px"}} src={currentUser.avatarURL} alt="user avatar" />
+              <img style={{width:"70px", height: "auto"}} src={currentUser.avatarURL} alt="user avatar" />
               <p>{currentUser.userName}</p>
           
             <button
               onClick={() => {
                 setCurrentUser(null);
-                navigate('/posts');
+                navigate('/');
               }}
             >
               Logout
             </button>
                 </>
                 }
-                <button>Menu</button>
+             
                 
 
             </HeaderStyled>

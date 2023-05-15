@@ -1,5 +1,5 @@
 
-import { Route, Routes, Navigate} from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
 import Home from './components/Page/Home';
 import { useContext } from 'react';
@@ -18,21 +18,24 @@ const App = () => {
   const { currentUser } = useContext(UsersContext);
   return (
     <>
-<Header/>
+      <Header />
 
       <Routes>
+      
+          <Route index element={<Home />} />
 
-        <Route index element={<Home />} />
+          <Route path="/dogs" element={
+          currentUser ?
+          <DogsPage /> :
+          <Navigate to="/login" />
+        } />
 
+        {/* <Route path='/dogs' element={<DogsPage />} /> */}
 
-        <Route path='/dogs'/>
-          <Route  element={<DogsPage />} />
-          {/* <Route path="/register" element={<Register />} /> */}
+        {/* <Route path="/register" element={<Register />} /> */}
         <Route path='/login' element={<Login />} />
-      
-      
- 
-        
+
+
         <Route path='*' element={<h1>All the dogs think you are lost! </h1>} />
       </Routes>
 
