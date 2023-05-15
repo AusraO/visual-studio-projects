@@ -87,11 +87,11 @@ const Login = () => {
       </form>
       {
         failedLogIn &&
-        <h1
+        <p
           style={{ color:'red' }}
         >
-          Neteisingi prisijungimo duomenys
-        </h1>
+          Wrong user name and/or password
+        </p>
       }
     </StyledMain>
   );
