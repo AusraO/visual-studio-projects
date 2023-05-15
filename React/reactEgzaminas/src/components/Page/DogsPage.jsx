@@ -2,7 +2,7 @@ import { useContext } from "react";
 import styled from "styled-components";
 import DogsContext from "../../contexts/DogsContext";
 import DogCard from "../UI/Molecules/DogCard";
-import { Link } from "react-router-dom"
+
 
 
 const StyledDogsMain = styled.main`
@@ -28,7 +28,7 @@ const DogsPage = () => {
     return (
         <StyledDogsMain>
             <h1> Your Favourite Dog Breeds in one place</h1>
-           <Link to= '/dogs/newDog'>Add your favourite dog</Link>
+         
 
             <StyledDogsDiv>
                 {
