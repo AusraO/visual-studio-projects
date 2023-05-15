@@ -36,7 +36,6 @@ const Register = () => {
 
     const { NewUsersActionTypes, setNewUsers } = useContext(NewUsersContext);
     const navigate = useNavigate()
-
     const [formInputs, setFormInputs] = useState({
         userName: '',
         avatarURL: '',
@@ -69,6 +68,7 @@ const Register = () => {
             type: NewUsersActionTypes.add,
             data: newUser
         })
+     
         navigate('/dogs')
     }
 
@@ -83,15 +83,12 @@ const Register = () => {
         inputHandler(e);
     }
 
-
     const values = {
 
         userName: '',
         avatarURL: '',
         email:'',
         password: ''
-    
-
     }
 
     const validationSchema = Yup.object({
@@ -163,7 +160,7 @@ const Register = () => {
                         type='email'
                         name='email' id='email'
                         value={formik.values.email}
-                        onChange={formik.handleChange}
+                        onChange={handleChange}
                         onBlur={formik.handleBlur}
                     />
                     {

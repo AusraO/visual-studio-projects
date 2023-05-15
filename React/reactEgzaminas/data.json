@@ -67,27 +67,11 @@
     },
     {
       "userName": "ausra",
-      "avatarURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeIUUwf1GuV6YhA08a9haUQBOBRqJinQCJxA&usqp=CAU",
-      "email": "",
-      "password": "!1Aaaaaa",
-      "passwordConfirm": "!1Aaaaaa",
-      "id": "8e0df1d1-099e-423a-8054-0be86429493f"
-    },
-    {
-      "userName": "ausra",
-      "avatarURL": "https://www.kindpng.com/picc/m/163-1636340_user-avatar-icon-avatar-transparent-user-icon-png.png",
-      "email": "",
-      "password": "!1Aaaaaa",
-      "passwordConfirm": "!1Aaaaaa",
-      "id": "70a985a0-648b-4479-90aa-864d83419e12"
-    },
-    {
-      "userName": "ausra",
-      "avatarURL": "https://www.kindpng.com/picc/m/163-1636340_user-avatar-icon-avatar-transparent-user-icon-png.png",
-      "email": "",
+      "avatarURL": "",
+      "email": "a@a",
       "password": "!1Aaaaaaa",
       "passwordConfirm": "!1Aaaaaaa",
-      "id": "55a9d816-1c09-45ce-8be2-afbf017242f0"
+      "id": "194c9a4e-8ca2-4083-aee5-cef5f8218447"
     }
   ]
 }
